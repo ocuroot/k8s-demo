@@ -47,7 +47,7 @@ def do_trigger(commit):
         }
         
         print("Triggering workflow via GitHub API")
-        response = http.post(url, payload, headers=headers)
+        response = http.post(url=url, body=payload, headers=headers)
         
         if response["status_code"] == 204:
             print("Successfully triggered workflow")
