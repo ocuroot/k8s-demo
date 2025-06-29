@@ -5,6 +5,8 @@ name: Ocuroot Workflow Trigger
 on:
   push:
     branches: [ state ]
+    paths:
+      - '**/status/pending/**'
 
 jobs:
   trigger:
