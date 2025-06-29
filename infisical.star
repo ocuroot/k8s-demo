@@ -21,7 +21,7 @@ def install_infisical():
 def setup_infisical(project_id, default_env="prod"):
     infisical_cmd = "infisical"
     has_infisical = host.shell("which infisical", continue_on_error=True, mute=True).exit_code == 0
-    if not has_infisical:
+    if not has_infisical or infisical_cmd == "":
         install_infisical()
     else:
         # For some reason, sh on my Mac needs the full path
