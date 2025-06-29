@@ -8,45 +8,38 @@ def build(ctx):
     return done(
         outputs={
             "version": "1.0.0",
-            "timestamp": str(host.now()),
         },
     )
 
 # Backend deployment function
 def backend_up(ctx):
-    print("Deploying backend to environment: {}".format(ctx.environment.name))
+    print("Deploying backend to environment: {}".format(ctx.inputs.environment.name))
     # Generate a unique port for this backend deployment
-    port = 8000 + (hash(ctx.environment.name) % 1000)
+    port = 8000 + (hash(ctx.inputs.environment.name) % 1000)
     
     return done(
         outputs={
-            "env_name": ctx.environment.name,
-            "deploy_time": str(host.now()),
-            "count": ctx.inputs.previous_count + 1,
-            "url": "http://backend-{}.example.com".format(ctx.environment.name),
+            "env_name": ctx.inputs.environment.name,
+            "url": "http://backend-{}.example.com".format(ctx.inputs.environment.name),
             "port": port,
-            "version": ctx.inputs.version,
         },
     )
 
 # Frontend deployment function
 def frontend_up(ctx):
-    print("Deploying frontend to environment: {}".format(ctx.environment.name))
+    print("Deploying frontend to environment: {}".format(ctx.inputs.environment.name))
     print("Using backend URL: {}".format(ctx.inputs.backend_url))
     
     return done(
         outputs={
-            "env_name": ctx.environment.name,
-            "deploy_time": str(host.now()),
-            "count": ctx.inputs.previous_count + 1,
-            "version": ctx.inputs.version,
-            "backend_url": ctx.inputs.backend_url,
+            "env_name": ctx.inputs.environment.name,
+            "frontend_url": "http://frontend-{}.example.com".format(ctx.inputs.environment.name),
         },
     )
 
 # Common down function
 def down(ctx):
-    print("Tearing down from environment: {}".format(ctx.environment.name))
+    print("Tearing down from environment: {}".format(ctx.inputs.environment.name))
     # Simulate teardown process
     host.shell("sleep 1")
     
