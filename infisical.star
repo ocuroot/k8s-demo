@@ -19,6 +19,8 @@ def install_infisical():
         fail("Could not install infisical")
 
 def setup_infisical(project_id, default_env="prod"):
+    print(host.env())
+    print("Checking for infisical")
     print(host.shell("which infisical"))
     has_infisical = host.shell("which infisical", continue_on_error=True).exit_code == 0
     if not has_infisical:
