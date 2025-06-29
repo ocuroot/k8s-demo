@@ -11,7 +11,7 @@ def init_repo():
     # Always use https for checkout with GitHub actions
     env_vars = host.env()
     if "GH_TOKEN" in env_vars:
-        repo_url = "https://{}@github.com/ocuroot/k8s-demo.git".format(env_vars["GH_TOKEN"])
+        repo_url = "https://x-access-token:{}@github.com/ocuroot/k8s-demo.git".format(env_vars["GH_TOKEN"])
 
     store.set(
         store.git(repo_url, branch="state"),
