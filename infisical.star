@@ -19,20 +19,12 @@ def install_infisical():
         fail("Could not install infisical")
 
 def setup_infisical(project_id, default_env="prod"):
-    r = host.shell("which infisical", continue_on_error=True, mute=True)
-    infisical_cmd = r.stdout.strip()
-    if r.exit_code != 0 or infisical_cmd == "":
+    has_infisical = host.shell("which infisical", continue_on_error=True).exit_code == 0
+    if not has_infisical:
         install_infisical()
-        infisical_cmd = host.shell("which infisical", continue_on_error=True, mute=True).stdout.strip()
-    else:
-        # For some reason, sh on my Mac needs the full path
-        infisical_cmd = r.stdout.strip()
-
-    if infisical_cmd == "":
-        fail("Could not find infisical and/or installation failed")
 
     tokenCheck = host.shell(
-            infisical_cmd + " user get token",
+            "infisical user get token",
             mute=True,
             continue_on_error=True,
         )
@@ -43,15 +35,16 @@ def setup_infisical(project_id, default_env="prod"):
         for line in lines:
             if line.startswith("Token: "):
                 token = line[7:].strip()
-    
+
     # If we don't have a token, authenticate with env vars
     if token == "":
         envs = host.env()
         if "INFISICAL_CLIENT_ID" not in envs or "INFISICAL_CLIENT_SECRET" not in envs:
             fail("INFISICAL_CLIENT_ID and INFISICAL_CLIENT_SECRET must be set")
 
+        print("Logging in with client ID: " + envs["INFISICAL_CLIENT_ID"])
         token = host.shell(
-            infisical_cmd + " login --method=universal-auth --client-id=$INFISICAL_CLIENT_ID --client-secret=$INFISICAL_CLIENT_SECRET --silent --plain",
+            "infisical login --method=universal-auth --client-id=$INFISICAL_CLIENT_ID --client-secret=$INFISICAL_CLIENT_SECRET --silent --plain",
             env={
                 "INFISICAL_CLIENT_ID": envs["INFISICAL_CLIENT_ID"],
                 "INFISICAL_CLIENT_SECRET": envs["INFISICAL_CLIENT_SECRET"],
@@ -61,7 +54,7 @@ def setup_infisical(project_id, default_env="prod"):
 
     def get_key(id, project_id=project_id, env=default_env):
         v = host.shell(
-            infisical_cmd + " --token=$TOKEN secrets get --projectId=$PROJECT_ID --env=$ENV --plain --silent $ID",
+            'infisical --token=$TOKEN secrets get --projectId=$PROJECT_ID --env=$ENV --plain --silent $ID',
             env={
                 "TOKEN": token,
                 "PROJECT_ID": project_id,
@@ -74,7 +67,7 @@ def setup_infisical(project_id, default_env="prod"):
 
     def set_key(id, value, project_id=project_id, env=default_env):
         host.shell(
-            infisical_cmd + " --token=$TOKEN secrets set --projectId=$PROJECT_ID --env=$ENV \"$ID=$VALUE\"",
+            "infisical --token=$TOKEN secrets set --projectId=$PROJECT_ID --env=$ENV \"$ID=$VALUE\"",
             env={
                 "TOKEN": token,
                 "PROJECT_ID": project_id,
