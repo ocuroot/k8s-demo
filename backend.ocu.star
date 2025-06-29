@@ -23,7 +23,6 @@ phase(
             up=backend_up,
             down=down,
             environment=environment,
-            inputs={
         ) for environment in dev
     ],
 )
@@ -36,7 +35,6 @@ phase(
             up=backend_up,
             down=down,
             environment=environment,
-            inputs={
         ) for environment in staging
     ],
 )
@@ -49,7 +47,6 @@ phase(
             up=backend_up,
             down=down,
             environment=environment,
-            inputs={
         ) for environment in prod
     ],
 )
