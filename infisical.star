@@ -19,16 +19,17 @@ def install_infisical():
         fail("Could not install infisical")
 
 def setup_infisical(project_id, default_env="prod"):
-    infisical_cmd = "infisical"
-    has_infisical = host.shell("which infisical", continue_on_error=True, mute=True).exit_code == 0
-    if not has_infisical or infisical_cmd == "":
+    r = host.shell("which infisical", continue_on_error=True, mute=True)
+    infisical_cmd = r.stdout.strip()
+    if r.exit_code != 0 or infisical_cmd == "":
         install_infisical()
+        infisical_cmd = host.shell("which infisical", continue_on_error=True, mute=True).stdout.strip()
     else:
         # For some reason, sh on my Mac needs the full path
-        infisical_cmd = host.shell("which infisical", continue_on_error=True, mute=True).stdout.strip()
+        infisical_cmd = r.stdout.strip()
 
     if infisical_cmd == "":
-        fail("Could not find infisical")
+        fail("Could not find infisical and/or installation failed")
 
     tokenCheck = host.shell(
             infisical_cmd + " user get token",
