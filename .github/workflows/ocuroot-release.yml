@@ -1,0 +1,24 @@
+name: Ocuroot Release
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download ocuroot binary
+        run: |
+          curl -L -o ocuroot https://downloads.ocuroot.com/ocuroot/0.3.1/linux-amd64/ocuroot
+          chmod +x ocuroot
+
+      - name: Run ocuroot release command
+        env:
+          INFISICAL_CLIENT_ID: ${{ secrets.INFISICAL_CLIENT_ID }}
+          INFISICAL_CLIENT_SECRET: ${{ secrets.INFISICAL_CLIENT_SECRET }}
+        run: ./ocuroot release new test.ocu.star
