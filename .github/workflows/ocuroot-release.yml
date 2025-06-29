@@ -16,7 +16,7 @@ jobs:
 
       - name: Download ocuroot binary
         run: |
-          curl -L -o ocuroot https://downloads.ocuroot.com/ocuroot/0.3.2/linux-amd64/ocuroot
+          curl -L -o ocuroot https://downloads.ocuroot.com/ocuroot/0.3.3/linux-amd64/ocuroot
           chmod +x ocuroot
 
       - name: Configure Git

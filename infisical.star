@@ -21,6 +21,7 @@ def install_infisical():
 def setup_infisical(project_id, default_env="prod"):
     has_infisical = host.shell("which infisical", continue_on_error=True).exit_code == 0
     if not has_infisical:
+        print("Installing infisical")
         install_infisical()
 
     tokenCheck = host.shell(
