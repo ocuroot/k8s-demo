@@ -1,3 +1,5 @@
+# This is an example of the trigger workflow that is also checked into the state
+# repo.
 name: Ocuroot Workflow Trigger
 
 on:
@@ -23,7 +25,7 @@ jobs:
           git config --global user.email "ocuroot-ci@example.com"
           git config --global user.name "Ocuroot CI"
 
-      - name: Run ocuroot workflow trigger
+      - name: Run ocuroot work trigger
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./ocuroot workflow trigger
+        run: ./ocuroot work trigger
