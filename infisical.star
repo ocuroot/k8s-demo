@@ -19,9 +19,6 @@ def install_infisical():
         fail("Could not install infisical")
 
 def setup_infisical(project_id, default_env="prod"):
-    print(host.env())
-    print("Checking for infisical")
-    print(host.shell("which infisical", continue_on_error=True))
     has_infisical = host.shell("which infisical", continue_on_error=True).exit_code == 0
     if not has_infisical:
         print("Installing infisical")
@@ -46,7 +43,7 @@ def setup_infisical(project_id, default_env="prod"):
         if "INFISICAL_CLIENT_ID" not in envs or "INFISICAL_CLIENT_SECRET" not in envs:
             fail("INFISICAL_CLIENT_ID and INFISICAL_CLIENT_SECRET must be set")
 
-        print("Logging in with client ID: " + envs["INFISICAL_CLIENT_ID"])
+        print("Logging in with credentials in INFISICAL_CLIENT_ID and INFISICAL_CLIENT_SECRET")
         token = host.shell(
             "infisical login --method=universal-auth --client-id=$INFISICAL_CLIENT_ID --client-secret=$INFISICAL_CLIENT_SECRET --silent --plain",
             env={
