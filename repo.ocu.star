@@ -18,3 +18,43 @@ def init_repo():
     )
 
 init_repo()
+
+def do_trigger(commit):
+    print("Triggering work for repo at commit " + commit)
+    
+    # Get environment variables
+    env_vars = host.env()
+    
+    if "GH_TOKEN" in env_vars:
+        gh_token = env_vars["GH_TOKEN"]
+        
+        # Repository owner and name from the repo URL
+        owner = "ocuroot"
+        repo = "k8s-demo"
+        
+        # GitHub API endpoint for workflow dispatch
+        workflow_id = "ocuroot-work-continue.yml"
+        url = "https://api.github.com/repos/{}/{}/actions/workflows/{}/dispatches".format(owner, repo, workflow_id)
+        
+        # Payload with the commit to check out
+        payload = json.encode({"ref": "main", "inputs": {"commit_sha": commit}})
+        
+        # Headers for authentication
+        headers = {
+            "Accept": "application/vnd.github+json",
+            "Authorization": "token " + gh_token,
+            "X-GitHub-Api-Version": "2022-11-28"
+        }
+        
+        print("Triggering workflow via GitHub API")
+        response = http.post(url, payload, headers=headers)
+        
+        if response["status_code"] == 204:
+            print("Successfully triggered workflow")
+        else:
+            print("Failed to trigger workflow. Status code: " + str(response["status_code"]))
+            print("Response: " + response["body"])
+    else:
+        print("GH_TOKEN not available. Cannot trigger GitHub workflow.")
+
+trigger(do_trigger)

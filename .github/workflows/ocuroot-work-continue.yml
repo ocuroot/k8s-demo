@@ -1,18 +1,23 @@
-name: Ocuroot Release
+name: Ocuroot Work Continue
 
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
+    inputs:
+      commit_sha:
+        description: 'Commit SHA to check out'
+        required: true
+        type: string
 
 jobs:
-  release:
+  continue:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.inputs.commit_sha }}
 
       - name: Download ocuroot binary
         run: |
@@ -24,10 +29,9 @@ jobs:
           git config --global user.email "ocuroot-ci@example.com"
           git config --global user.name "Ocuroot CI"
 
-      - name: Run ocuroot release command
+      - name: Run ocuroot work continue
         env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           INFISICAL_CLIENT_ID: ${{ secrets.INFISICAL_CLIENT_ID }}
           INFISICAL_CLIENT_SECRET: ${{ secrets.INFISICAL_CLIENT_SECRET }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./ocuroot release new test.ocu.star
-
+        run: ./ocuroot work continue
