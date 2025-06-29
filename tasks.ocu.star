@@ -33,7 +33,7 @@ def frontend_up(ctx):
     return done(
         outputs={
             "env_name": ctx.inputs.environment["name"],
-            "frontend_url": "http://frontend-{}.example.com".format(ctx.inputs.environment.name),
+            "frontend_url": "http://frontend-{}.example.com".format(ctx.inputs.environment["name"]),
         },
     )
 
