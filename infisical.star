@@ -27,6 +27,9 @@ def setup_infisical(project_id, default_env="prod"):
         # For some reason, sh on my Mac needs the full path
         infisical_cmd = host.shell("which infisical", continue_on_error=True, mute=True).stdout.strip()
 
+    if infisical_cmd == "":
+        fail("Could not find infisical")
+
     tokenCheck = host.shell(
             infisical_cmd + " user get token",
             mute=True,
