@@ -11,9 +11,6 @@ on:
 jobs:
   continue:
     runs-on: ubuntu-latest
-    permissions:
-      actions: write
-      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -32,7 +29,7 @@ jobs:
 
       - name: Run ocuroot work continue
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
           INFISICAL_CLIENT_ID: ${{ secrets.INFISICAL_CLIENT_ID }}
           INFISICAL_CLIENT_SECRET: ${{ secrets.INFISICAL_CLIENT_SECRET }}
         run: ./ocuroot work continue
