@@ -1,0 +1,101 @@
+ocuroot("0.3.0")
+
+load("../terraform.star", "setup_tf")
+load("../infisical.star", "setup_infisical")
+
+# Get all environments
+envs = environments()
+# Filter environments by type
+dev = [e for e in envs if e.attributes["type"] == "development"]
+staging = [e for e in envs if e.attributes["type"] == "staging"]
+prod = [e for e in envs if e.attributes["type"] == "prod"]
+
+def review(ctx):
+    infisical = setup_infisical(project_id="f7b78b62-9edc-4b41-bc87-37c80b350c10")
+    dev_env = struct(
+        name = "dev",
+    )
+    tf = setup_tf({}, dev_env, "kubernetes", infisical)
+
+    # HA
+    tf.validate(
+        vars = {
+            "vultr_api_key": infisical.get("VULTR_API_KEY"),
+            "min_nodes": "2",
+            "max_nodes": "6",
+        }
+    )
+
+    # Non-HA
+    tf.validate(
+        vars = {
+            "vultr_api_key": infisical.get("VULTR_API_KEY"),
+            "min_nodes": "1",
+            "max_nodes": "2",
+        }
+    )
+    return done()
+
+phase(
+    name="review",
+    work=[call(review, name="review")],
+)
+
+def _deploy(ctx):
+    infisical = setup_infisical(project_id="f7b78b62-9edc-4b41-bc87-37c80b350c10")
+    tf = setup_tf({}, environment_from_dict(ctx.inputs.environment), "kubernetes", infisical)
+    outputs = tf.apply(vars = {
+        "vultr_api_key": infisical.get("VULTR_API_KEY"),
+        "min_nodes": "2",
+        "max_nodes": "4",
+    })
+    return done(
+        outputs={
+            "env_name": outputs["env_name"],
+            "kubeconfig": outputs["kubeconfig"],
+        },
+    )
+
+def _destroy(ctx):
+    infisical = setup_infisical(project_id="f7b78b62-9edc-4b41-bc87-37c80b350c10")
+    tf = setup_tf({}, environment_from_dict(ctx.inputs.environment), "kubernetes", infisical)
+    outputs = tf.destroy(vars = {
+        "vultr_api_key": infisical.get("VULTR_API_KEY"),
+    })
+    return done()
+
+# Development deployment phase
+phase(
+    name="dev",
+    work=[
+        deploy(
+            up=_deploy,
+            down=_destroy,
+            environment=environment,
+        ) for environment in dev
+    ],
+)
+
+# Staging deployment phase
+phase(
+    name="staging",
+    work=[
+        deploy(
+            up=_deploy,
+            down=_destroy,
+            environment=environment,
+        ) for environment in staging
+    ],
+)
+
+# Production deployment phase
+phase(
+    name="production",
+    work=[
+        deploy(
+            up=_deploy,
+            down=_destroy,
+            environment=environment,
+        ) for environment in prod
+    ],
+)
