@@ -4,12 +4,9 @@ resource "vultr_kubernetes" "k8" {
     version = "v1.33.0+1"
 
     node_pools {
-        node_quantity = 2
-        plan          = "vc2-1c-2gb"
+        node_quantity = 1
+        plan          = "vc2-1c-1gb"
         label         = "vke-nodepool"
-        auto_scaler   = true
-        min_nodes     = var.min_nodes
-        max_nodes     = var.max_nodes
     }
 
     lifecycle {
@@ -18,9 +15,4 @@ resource "vultr_kubernetes" "k8" {
         node_pools[0].node_quantity
       ]
     }
-}
-
-resource "local_file" "kubeconfig" {
-  content  = base64decode(vultr_kubernetes.k8.kube_config)
-  filename = "${path.module}/../.state/${var.environment}/kubeconfig"
 }
