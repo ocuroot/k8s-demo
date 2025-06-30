@@ -13,6 +13,12 @@ def init_repo():
     if "GH_TOKEN" in env_vars:
         repo_url = "https://x-access-token:{}@github.com/ocuroot/k8s-demo.git".format(env_vars["GH_TOKEN"])
 
+    if "OCUROOT_LOCAL_MODE" in env_vars:
+        store.set(
+            store.fs("./.store"),
+        )
+        return
+
     store.set(
         store.git(repo_url, branch="state"),
     )
