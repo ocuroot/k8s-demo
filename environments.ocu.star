@@ -1,5 +1,29 @@
 ocuroot("0.3.0")
 
-register_environment(environment("dev", {"type": "development"}))
-register_environment(environment("staging", {"type": "staging"}))
-register_environment(environment("production", {"type": "prod"}))
+register_environment(
+    environment(
+        "dev",
+        {
+            "type": "development",
+            "infisical_env": "dev",
+        }
+    )
+)
+register_environment(
+    environment(
+        "staging",
+        {
+            "type": "staging",
+            "infisical_env": "staging",
+        }
+    )
+)
+register_environment(
+    environment(
+        "production",
+        {
+            "type": "prod",
+            "infisical_env": "prod",
+        }
+    )
+)

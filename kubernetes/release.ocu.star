@@ -51,8 +51,8 @@ def _deploy(ctx):
     })
 
     env_name = ctx.inputs.environment["name"]
-    secret_name = "KUBECONFIG_{}".format(env_name)
-    infisical.set(secret_name, outputs["kubeconfig"])
+    secret_name = "K8S_DEMO_KUBECONFIG"
+    infisical.set(secret_name, outputs["kubeconfig"], env=ctx.inputs.environment["attributes"]["infisical_env"])
 
     return done(
         outputs={
@@ -67,6 +67,8 @@ def _destroy(ctx):
     outputs = tf.destroy(vars = {
         "vultr_api_key": infisical.get("VULTR_API_KEY"),
     })
+    # Clear the secret
+    infisical.set("K8S_DEMO_KUBECONFIG", "", env=ctx.inputs.environment["attributes"]["infisical_env"])
     return done()
 
 # Development deployment phase
