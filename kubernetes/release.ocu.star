@@ -49,10 +49,15 @@ def _deploy(ctx):
         "min_nodes": "2",
         "max_nodes": "4",
     })
+
+    env_name = ctx.inputs.environment["name"]
+    secret_name = "KUBECONFIG_{}".format(env_name)
+    infisical.set(secret_name, outputs["kubeconfig"])
+
     return done(
         outputs={
             "env_name": outputs["env_name"],
-            "kubeconfig": outputs["kubeconfig"],
+            "kubeconfig_secret": secret_name,
         },
     )
 
