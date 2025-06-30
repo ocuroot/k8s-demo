@@ -22,6 +22,11 @@ jobs:
           git config --global user.email "ocuroot-ci@example.com"
           git config --global user.name "Ocuroot CI"
 
+      - name: Sync environments
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: ./ocuroot release new environments.ocu.star
+
       - name: Release the frontend
         env:
           INFISICAL_CLIENT_ID: ${{ secrets.INFISICAL_CLIENT_ID }}
