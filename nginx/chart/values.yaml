@@ -3,6 +3,9 @@
 # Custom HTML message to display
 htmlMessage: "Welcome to Nginx deployed by Ocuroot!"
 
+# DigitalOcean load balancer ID
+loadBalancerId: "k8s-nginx-default"
+
 # Nginx subchart configuration
 nginx:
   fullnameOverride: "nginx-custom"

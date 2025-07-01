@@ -9,3 +9,5 @@ data:
     staticSiteConfigmap: "{{ .Release.Name }}-html-content"
     cloneStaticSiteFromGit:
       enabled: false
+    service:
+      annotations: {{ include "ocuroot-nginx.annotations" . | nindent 8 }}
