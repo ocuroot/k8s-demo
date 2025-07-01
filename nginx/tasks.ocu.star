@@ -4,7 +4,8 @@ load("../kubernetes.star", "setup_helm", "setup_k8s")
 load("../infisical.star", "setup_infisical")
 
 def build(ctx):
-    message = host.shell("cat message.txt").stdout.strip()
+    message = host.shell("cat message.txt", mute=True).stdout.strip()
+    print("Message is: {}".format(message))
     return done(
         outputs={
             "message": message,
