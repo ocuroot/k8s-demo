@@ -11,8 +11,6 @@ nginx:
   service:
     type: LoadBalancer
     port: 80
-    annotations:
-      kubernetes.digitalocean.com/load-balancer-id: "${LOADBALANCER_ID}"
 
   serverBlock: |
     server {

@@ -71,9 +71,6 @@ def up(ctx):
     
     # Install our custom Helm chart without waiting for LoadBalancer
     print("Installing nginx via custom Helm chart in {} environment...".format(env_name))
-    # Generate a consistent load balancer ID based on environment name
-    loadbalancer_id = "k8s-nginx-{}".format(env_name)
-    
     result = helm.exec(
         """helm upgrade --install nginx-custom ../nginx/chart \
         --namespace nginx \
@@ -83,13 +80,11 @@ def up(ctx):
         --set nginx.extraVolumeMounts[0].name=custom-html \
         --set nginx.extraVolumeMounts[0].mountPath=/app \
         --set nginx.extraVolumes[0].name=custom-html \
-        --set nginx.extraVolumes[0].configMap.name=nginx-custom-html-content \
-        --set-string nginx.service.annotations.kubernetes\\.digitalocean\\.com/load-balancer-id=$LOADBALANCER_ID""",
+        --set nginx.extraVolumes[0].configMap.name=nginx-custom-html-content""",
         env={
             "MESSAGE": ctx.inputs.message,
             "ENV_NAME": env_name.upper(),
             "BUILD_NUMBER": str(ctx.inputs.build_number),
-            "LOADBALANCER_ID": loadbalancer_id,
         },
         mute=False
     )
