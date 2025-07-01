@@ -8,7 +8,7 @@
         "name": "_deploy",
         "pos": "release.ocu.star:46:1"
       },
-      "status": "pending",
+      "status": "running",
       "dependencies": [
         "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@f528b7afd5e5d4c3452a8bb06c0b14c5385e3144.01JZ3AK0CFKK9941F2W3EP5DGH/call/review/01JZ3AK0CM73629B1ZTZJQS8Q1/status/complete"
       ],
@@ -27,8 +27,8 @@
     },
     "history": [
       {
-        "time": "2025-07-01T15:45:25.840206838Z",
-        "status": "pending"
+        "time": "2025-07-01T15:45:26.77082116Z",
+        "status": "running"
       }
     ]
   }
