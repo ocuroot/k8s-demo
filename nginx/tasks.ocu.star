@@ -69,14 +69,14 @@ def up(ctx):
     # Install our custom Helm chart without waiting for LoadBalancer
     print("Installing nginx via custom Helm chart in {} environment...".format(env_name))
     result = helm.exec(
-        "helm upgrade --install nginx-custom ../nginx/chart \
+        """helm upgrade --install nginx-custom ../nginx/chart \
         --namespace nginx \
-        --set htmlMessage=$MESSAGE \
-        --set envName=$ENV_NAME \
+        --set htmlMessage="$MESSAGE" \
+        --set envName="$ENV_NAME" \
         --set nginx.extraVolumeMounts[0].name=custom-html \
         --set nginx.extraVolumeMounts[0].mountPath=/app \
         --set nginx.extraVolumes[0].name=custom-html \
-        --set nginx.extraVolumes[0].configMap.name=nginx-custom-html-content",
+        --set nginx.extraVolumes[0].configMap.name=nginx-custom-html-content""",
         env={
             "MESSAGE": ctx.inputs.message,
             "ENV_NAME": env_name.upper(),
