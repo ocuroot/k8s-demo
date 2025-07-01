@@ -1,8 +1,6 @@
 ocuroot("0.3.0")
 
-load("../kubernetes.star", "setup_helm", "setup_k8s")
-load("../infisical.star", "setup_infisical")
-load("./tasks.ocu.star", "_deploy", "_destroy")
+load("./tasks.ocu.star", "up", "down", "build")
 
 # Get all environments
 envs = environments()
@@ -11,8 +9,10 @@ dev = [e for e in envs if e.attributes["type"] == "development"]
 staging = [e for e in envs if e.attributes["type"] == "staging"]
 prod = [e for e in envs if e.attributes["type"] == "prod"]
 
-# Constant HTML message for the heading
-HTML_MESSAGE = "Welcome to Nginx deployed by Ocuroot!"
+phase(
+    name="build",
+    work=[call(fn=build,name="build")],
+)
 
 # Development deployment phase
 phase(
@@ -23,6 +23,7 @@ phase(
             down=down,
             environment=environment,
             inputs={
+                "message": ref("./call/build#output/message"),
                 "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),
             },
         ) for environment in dev
@@ -38,6 +39,7 @@ phase(
             down=down,
             environment=environment,
             inputs={
+                "message": ref("./call/build#output/message"),
                 "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),
             },
         ) for environment in staging
@@ -53,6 +55,7 @@ phase(
             down=down,
             environment=environment,
             inputs={
+                "message": ref("./call/build#output/message"),
                 "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),
             },
         ) for environment in prod

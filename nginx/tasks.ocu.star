@@ -1,5 +1,16 @@
 ocuroot("0.3.0")
 
+load("../kubernetes.star", "setup_helm", "setup_k8s")
+load("../infisical.star", "setup_infisical")
+
+def build(ctx):
+    message = host.shell("cat message.txt").stdout.strip()
+    return done(
+        outputs={
+            "message": message,
+        }
+    )
+
 def up(ctx):
     """Deploy nginx using our custom Helm chart"""
     env = environment_from_dict(ctx.inputs.environment)
@@ -65,7 +76,7 @@ def up(ctx):
         --set nginx.extraVolumeMounts[0].name=custom-html \
         --set nginx.extraVolumeMounts[0].mountPath=/app \
         --set nginx.extraVolumes[0].name=custom-html \
-        --set nginx.extraVolumes[0].configMap.name=nginx-custom-html-content".format(HTML_MESSAGE, env_name.upper()),
+        --set nginx.extraVolumes[0].configMap.name=nginx-custom-html-content".format(ctx.inputs.message, env_name.upper()),
         mute=False
     )
     
@@ -148,12 +159,9 @@ def up(ctx):
     
     return done(
         outputs={
-            "env_name": env_name,
             "loadbalancer_ip": service_ip,
             "loadbalancer_id": lb_id,
             "service_url": service_url,
-            "message": HTML_MESSAGE,
-            "environment": env_name.upper(),
         },
     )
 
