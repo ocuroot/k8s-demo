@@ -33,8 +33,6 @@ jobs:
           INFISICAL_CLIENT_SECRET: ${{ secrets.INFISICAL_CLIENT_SECRET }}
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          ./ocuroot release new frontend.ocu.star
-          ./ocuroot release new backend.ocu.star
           ./ocuroot release new kubernetes/release.ocu.star
           ./ocuroot release new nginx/release.ocu.star
 
