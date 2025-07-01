@@ -6,9 +6,11 @@ load("../infisical.star", "setup_infisical")
 def build(ctx):
     message = host.shell("cat message.txt", mute=True).stdout.strip()
     print("Message is: {}".format(message))
+    print("Build number is: {}".format(ctx.inputs.build_number))
     return done(
         outputs={
             "message": message,
+            "build_number": ctx.inputs.build_number + 1,
         }
     )
 
@@ -74,6 +76,7 @@ def up(ctx):
         --namespace nginx \
         --set htmlMessage="$MESSAGE" \
         --set envName="$ENV_NAME" \
+        --set buildNumber="$BUILD_NUMBER" \
         --set nginx.extraVolumeMounts[0].name=custom-html \
         --set nginx.extraVolumeMounts[0].mountPath=/app \
         --set nginx.extraVolumes[0].name=custom-html \
@@ -81,6 +84,7 @@ def up(ctx):
         env={
             "MESSAGE": ctx.inputs.message,
             "ENV_NAME": env_name.upper(),
+            "BUILD_NUMBER": str(ctx.inputs.build_number),
         },
         mute=False
     )

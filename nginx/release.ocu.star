@@ -11,7 +11,15 @@ prod = [e for e in envs if e.attributes["type"] == "prod"]
 
 phase(
     name="build",
-    work=[call(fn=build,name="build")],
+    work=[
+        call(
+            fn=build,
+            name="build",
+            inputs={
+                "build_number": input("./@/build#output/build_number", default=0),
+            }
+        )
+    ],
 )
 
 # Development deployment phase
@@ -23,6 +31,7 @@ phase(
             down=down,
             environment=environment,
             inputs={
+                "build_number": ref("./call/build#output/build_number"),
                 "message": ref("./call/build#output/message"),
                 "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),
             },
@@ -39,6 +48,7 @@ phase(
             down=down,
             environment=environment,
             inputs={
+                "build_number": ref("./call/build#output/build_number"),
                 "message": ref("./call/build#output/message"),
                 "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),
             },
@@ -55,6 +65,7 @@ phase(
             down=down,
             environment=environment,
             inputs={
+                "build_number": ref("./call/build#output/build_number"),
                 "message": ref("./call/build#output/message"),
                 "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),
             },
