@@ -4,7 +4,7 @@ resource "digitalocean_kubernetes_cluster" "k8" {
     version = "1.33.1-do.0"  # Using a recent stable version
     
     node_pool {
-        name       = "worker-pool"
+        name       = "worker-pool-${local.env_name}"
         size       = "s-1vcpu-2gb"  # Equivalent to Vultr's 1c-2gb instance
         node_count = 1
         auto_scale = false
