@@ -3,6 +3,6 @@ output "env_name" {
 }
 
 output "kubeconfig" {
-  value = base64decode(vultr_kubernetes.k8.kube_config)
+  value = digitalocean_kubernetes_cluster.k8.kube_config.0.raw_config
   sensitive = true
 }

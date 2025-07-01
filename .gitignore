@@ -41,3 +41,5 @@ terraform.rc
 .ocuroot
 .state
 .store
+
+*/chart/charts

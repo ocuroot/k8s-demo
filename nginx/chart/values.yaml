@@ -1,0 +1,22 @@
+# Default values for ocuroot-nginx chart
+
+# Custom HTML message to display
+htmlMessage: "Welcome to Nginx deployed by Ocuroot!"
+
+# Nginx subchart configuration
+nginx:
+  fullnameOverride: "nginx-custom"
+  nameOverride: "nginx-custom"
+  
+  service:
+    type: LoadBalancer
+    port: 80
+
+  serverBlock: |
+    server {
+      listen 0.0.0.0:8080;
+      root /app;
+      location / {
+        index index.html;
+      }
+    }

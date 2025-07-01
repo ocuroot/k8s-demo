@@ -48,6 +48,13 @@ jobs:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: ./ocuroot release new kubernetes/release.ocu.star
 
+      - name: Release nginx
+        env:
+          INFISICAL_CLIENT_ID: ${{ secrets.INFISICAL_CLIENT_ID }}
+          INFISICAL_CLIENT_SECRET: ${{ secrets.INFISICAL_CLIENT_SECRET }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: ./ocuroot release new nginx/release.ocu.star
+
       - name: Trigger following work
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}

@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "{{ .Release.Name }}-html-content"
+  labels: {{ include "ocuroot-nginx.labels" . | nindent 4 }}
+data:
+  index.html: |
+    <html>
+    <head>
+      <title>Ocuroot Nginx</title>
+      <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1 { color: #333; }
+        p.env { font-size: 1.2em; font-weight: bold; color: #0066cc; margin-top: 20px; }
+      </style>
+    </head>
+    <body>
+      <h1>{{ .Values.htmlMessage }}</h1>
+      <p class="env">Environment: {{ .Values.envName }}</p>
+    </body>
+    </html>

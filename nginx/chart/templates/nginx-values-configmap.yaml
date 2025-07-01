@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "{{ .Release.Name }}-nginx-values"
+  labels: {{ include "ocuroot-nginx.labels" . | nindent 4 }}
+data:
+  # This configures the nginx subchart to use our custom HTML content
+  values.yaml: |
+    staticSiteConfigmap: "{{ .Release.Name }}-html-content"
+    cloneStaticSiteFromGit:
+      enabled: false

@@ -6,6 +6,10 @@ terraform {
             source = "vultr/vultr"
             version = "2.21.0"
         }
+        digitalocean = {
+            source = "digitalocean/digitalocean"
+            version = "2.36.0"
+        }
         local = {
             source = "hashicorp/local"
             version = "2.1.0"
@@ -36,4 +40,9 @@ provider "vultr" {
   api_key = var.vultr_api_key
   rate_limit = 100
   retry_limit = 3
+}
+
+# Configure the DigitalOcean Provider
+provider "digitalocean" {
+  token = var.do_token
 }

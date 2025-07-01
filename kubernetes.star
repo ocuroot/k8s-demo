@@ -38,7 +38,8 @@ def setup_helm(environment, kubeconfig):
         return
 
     kubeconfig_path_relative = "../.ocuroot/tmp/{}/kubeconfig".format(environment.name)
-    
+    host.shell("mkdir -p ../.ocuroot/tmp/{}".format(environment.name))
+
     host.shell(
         "printenv KUBECONFIG > $KUBECONFIG_PATH",
         mute=True, 
