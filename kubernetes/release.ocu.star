@@ -75,18 +75,6 @@ def _destroy(ctx):
     infisical.set("K8S_DEMO_KUBECONFIG", "", env=ctx.inputs.environment["attributes"]["infisical_env"])
     return done()
 
-# Development deployment phase
-phase(
-    name="dev",
-    work=[
-        deploy(
-            up=_deploy,
-            down=_destroy,
-            environment=environment,
-        ) for environment in dev
-    ],
-)
-
 # Staging deployment phase
 phase(
     name="staging",

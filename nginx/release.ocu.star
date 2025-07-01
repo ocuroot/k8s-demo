@@ -22,23 +22,6 @@ phase(
     ],
 )
 
-# Development deployment phase
-phase(
-    name="dev",
-    work=[
-        deploy(
-            up=up,
-            down=down,
-            environment=environment,
-            inputs={
-                "build_number": ref("./call/build#output/build_number"),
-                "message": ref("./call/build#output/message"),
-                "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),
-            },
-        ) for environment in dev
-    ],
-)
-
 # Staging deployment phase
 phase(
     name="staging",
