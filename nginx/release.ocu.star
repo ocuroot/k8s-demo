@@ -5,7 +5,6 @@ load("./tasks.ocu.star", "up", "down", "build")
 # Get all environments
 envs = environments()
 # Filter environments by type
-dev = [e for e in envs if e.attributes["type"] == "development"]
 staging = [e for e in envs if e.attributes["type"] == "staging"]
 prod = [e for e in envs if e.attributes["type"] == "prod"]
 

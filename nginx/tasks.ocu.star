@@ -5,12 +5,13 @@ load("../infisical.star", "setup_infisical")
 
 def build(ctx):
     message = host.shell("cat message.txt", mute=True).stdout.strip()
+    build_number = ctx.inputs.build_number + 1
     print("Message is: {}".format(message))
-    print("Build number is: {}".format(ctx.inputs.build_number))
+    print("Build number is: {}".format(build_number))
     return done(
         outputs={
             "message": message,
-            "build_number": ctx.inputs.build_number + 1,
+            "build_number": build_number,
         }
     )
 
