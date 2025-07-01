@@ -16,7 +16,7 @@ phase(
             fn=build,
             name="build",
             inputs={
-                "build_number": input("./@/build#output/build_number", default=0),
+                "build_number": input("./@/call/build#output/build_number", default=0),
             }
         )
     ],
