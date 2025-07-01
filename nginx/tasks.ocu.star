@@ -71,12 +71,16 @@ def up(ctx):
     result = helm.exec(
         "helm upgrade --install nginx-custom ../nginx/chart \
         --namespace nginx \
-        --set htmlMessage='{}' \
-        --set envName='{}' \
+        --set htmlMessage=$MESSAGE \
+        --set envName=$ENV_NAME \
         --set nginx.extraVolumeMounts[0].name=custom-html \
         --set nginx.extraVolumeMounts[0].mountPath=/app \
         --set nginx.extraVolumes[0].name=custom-html \
-        --set nginx.extraVolumes[0].configMap.name=nginx-custom-html-content".format(ctx.inputs.message, env_name.upper()),
+        --set nginx.extraVolumes[0].configMap.name=nginx-custom-html-content",
+        env={
+            "MESSAGE": ctx.inputs.message,
+            "ENV_NAME": env_name.upper(),
+        },
         mute=False
     )
     
