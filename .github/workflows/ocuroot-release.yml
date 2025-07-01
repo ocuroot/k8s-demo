@@ -27,33 +27,16 @@ jobs:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: ./ocuroot release new environments.ocu.star
 
-      - name: Release the frontend
+      - name: Release all packages
         env:
           INFISICAL_CLIENT_ID: ${{ secrets.INFISICAL_CLIENT_ID }}
           INFISICAL_CLIENT_SECRET: ${{ secrets.INFISICAL_CLIENT_SECRET }}
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: ./ocuroot release new frontend.ocu.star
-
-      - name: Release the backend
-        env:
-          INFISICAL_CLIENT_ID: ${{ secrets.INFISICAL_CLIENT_ID }}
-          INFISICAL_CLIENT_SECRET: ${{ secrets.INFISICAL_CLIENT_SECRET }}
-          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: ./ocuroot release new backend.ocu.star
-
-      - name: Release kubernetes
-        env:
-          INFISICAL_CLIENT_ID: ${{ secrets.INFISICAL_CLIENT_ID }}
-          INFISICAL_CLIENT_SECRET: ${{ secrets.INFISICAL_CLIENT_SECRET }}
-          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: ./ocuroot release new kubernetes/release.ocu.star
-
-      - name: Release nginx
-        env:
-          INFISICAL_CLIENT_ID: ${{ secrets.INFISICAL_CLIENT_ID }}
-          INFISICAL_CLIENT_SECRET: ${{ secrets.INFISICAL_CLIENT_SECRET }}
-          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: ./ocuroot release new nginx/release.ocu.star
+        run: |
+          ./ocuroot release new frontend.ocu.star
+          ./ocuroot release new backend.ocu.star
+          ./ocuroot release new kubernetes/release.ocu.star
+          ./ocuroot release new nginx/release.ocu.star
 
       - name: Trigger following work
         env:
