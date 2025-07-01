@@ -19,8 +19,8 @@ phase(
     name="dev",
     work=[
         deploy(
-            up=_deploy,
-            down=_destroy,
+            up=up,
+            down=down,
             environment=environment,
             inputs={
                 "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),
@@ -34,8 +34,8 @@ phase(
     name="staging",
     work=[
         deploy(
-            up=_deploy,
-            down=_destroy,
+            up=up,
+            down=down,
             environment=environment,
             inputs={
                 "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),
@@ -49,8 +49,8 @@ phase(
     name="production",
     work=[
         deploy(
-            up=_deploy,
-            down=_destroy,
+            up=up,
+            down=down,
             environment=environment,
             inputs={
                 "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),

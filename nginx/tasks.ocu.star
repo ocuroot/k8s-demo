@@ -1,6 +1,6 @@
 ocuroot("0.3.0")
 
-def _deploy(ctx):
+def up(ctx):
     """Deploy nginx using our custom Helm chart"""
     env = environment_from_dict(ctx.inputs.environment)
     env_name = env.name
@@ -157,7 +157,7 @@ def _deploy(ctx):
         },
     )
 
-def _destroy(ctx):
+def down(ctx):
     """Destroy the nginx deployment"""
     env = environment_from_dict(ctx.inputs.environment)
     env_name = env.name
