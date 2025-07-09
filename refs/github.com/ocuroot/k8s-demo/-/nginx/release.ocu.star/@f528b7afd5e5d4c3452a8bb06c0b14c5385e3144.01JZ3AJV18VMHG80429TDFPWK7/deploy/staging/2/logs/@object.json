@@ -1,0 +1,17 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-07-09T00:26:42.297044-04:00",
+      "message": "struct(inputs = struct(build_number = None, environment = None, kubeconfig_secret = None, message = None), work_id = \"1\")",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "185",
+        "thread": "down"
+      },
+      "stream": 0
+    }
+  ]
+}
