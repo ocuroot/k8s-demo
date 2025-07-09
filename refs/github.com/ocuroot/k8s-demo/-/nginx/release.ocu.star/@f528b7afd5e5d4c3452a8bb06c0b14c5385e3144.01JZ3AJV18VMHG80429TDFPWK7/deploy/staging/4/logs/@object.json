@@ -1,0 +1,83 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-07-09T00:39:56.716907-04:00",
+      "message": "/opt/homebrew/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-09T00:39:58.259318-04:00",
+      "message": "/opt/homebrew/bin/helm",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-09T00:39:58.273813-04:00",
+      "message": "Destroying nginx from staging environment...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "198",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-09T00:39:58.763354-04:00",
+      "message": "WARNING: Kubernetes configuration file is group-readable. This is insecure. Location: ../.ocuroot/tmp/staging/kubeconfig",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-09T00:39:58.763475-04:00",
+      "message": "WARNING: Kubernetes configuration file is world-readable. This is insecure. Location: ../.ocuroot/tmp/staging/kubeconfig",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-09T00:39:58.960008-04:00",
+      "message": "Error: Kubernetes cluster unreachable: the server has asked for the client to provide credentials",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-09T00:39:58.960817-04:00",
+      "message": "Nginx destroyed successfully from staging environment",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "207",
+        "thread": "down"
+      },
+      "stream": 0
+    }
+  ]
+}
