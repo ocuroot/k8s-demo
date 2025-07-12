@@ -1,0 +1,9 @@
+{
+  "kind": "ref",
+  "body_type": "models.Work",
+  "body": {
+    "release": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@ceaa9bea8db95e39107d73189f83aae2c66ed2fa.01K00392V0C3BATFA1EGPAB386",
+    "entrypoint": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@ceaa9bea8db95e39107d73189f83aae2c66ed2fa.01K00392V0C3BATFA1EGPAB386/deploy/production/01K00392V8QTES0TD59YMTFGKT/functions/01K00392V8QTES0TD59Z2MRJVD",
+    "output": null
+  }
+}
