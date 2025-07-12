@@ -1,0 +1,26 @@
+{
+  "kind": "ref",
+  "body_type": "release.FunctionState",
+  "body": {
+    "current": {
+      "id": "01K003MFP9DCPTBH8JT0JSCM81",
+      "fn": {
+        "name": "build",
+        "pos": "./tasks.ocu.star:6:1"
+      },
+      "status": "pending",
+      "inputs": {
+        "build_number": {
+          "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@/call/build#output/build_number",
+          "default": 0
+        }
+      }
+    },
+    "history": [
+      {
+        "time": "2025-07-12T20:01:13.929735968Z",
+        "status": "pending"
+      }
+    ]
+  }
+}
