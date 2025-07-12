@@ -2,7 +2,7 @@
   "kind": "ref",
   "body_type": "models.Intent",
   "body": {
-    "release": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@f528b7afd5e5d4c3452a8bb06c0b14c5385e3144.01JZ3AK0CFKK9941F2W3EP5DGH",
+    "release": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@269213999bf212ba4cddec7fe9528d6acad13e6e.01K003MMD37A59E1PMPZ3HWB9E",
     "input": {
       "environment": {
         "ref": "@/environment/production",
