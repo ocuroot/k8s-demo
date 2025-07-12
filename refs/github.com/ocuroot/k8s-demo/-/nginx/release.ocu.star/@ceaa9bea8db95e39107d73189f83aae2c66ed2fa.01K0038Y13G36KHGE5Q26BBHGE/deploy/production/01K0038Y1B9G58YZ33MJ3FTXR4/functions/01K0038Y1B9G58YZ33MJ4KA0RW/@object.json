@@ -1,0 +1,37 @@
+{
+  "kind": "ref",
+  "body_type": "release.FunctionState",
+  "body": {
+    "current": {
+      "id": "01K0038Y1B9G58YZ33MJ4KA0RW",
+      "fn": {
+        "name": "up",
+        "pos": "./tasks.ocu.star:18:1"
+      },
+      "status": "pending",
+      "dependencies": [
+        "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@ceaa9bea8db95e39107d73189f83aae2c66ed2fa.01K0038Y13G36KHGE5Q26BBHGE/deploy/staging/01K0038Y1B9G58YZ33MB92BR3N/status/complete"
+      ],
+      "inputs": {
+        "build_number": {
+          "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@ceaa9bea8db95e39107d73189f83aae2c66ed2fa.01K0038Y13G36KHGE5Q26BBHGE/call/build#output/build_number"
+        },
+        "environment": {
+          "ref": "@/environment/production"
+        },
+        "kubeconfig_secret": {
+          "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/production#output/kubeconfig_secret"
+        },
+        "message": {
+          "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@ceaa9bea8db95e39107d73189f83aae2c66ed2fa.01K0038Y13G36KHGE5Q26BBHGE/call/build#output/message"
+        }
+      }
+    },
+    "history": [
+      {
+        "time": "2025-07-12T19:54:55.420721031Z",
+        "status": "pending"
+      }
+    ]
+  }
+}
