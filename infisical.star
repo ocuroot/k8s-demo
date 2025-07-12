@@ -79,7 +79,21 @@ def setup_infisical(project_id, default_env="prod"):
             mute=True
         )
 
+    def delete_key(id, project_id=project_id, env=default_env):
+        return host.shell(
+            "infisical --token=$TOKEN secrets delete --projectId=$PROJECT_ID --env=$ENV $ID",
+            env={
+                "TOKEN": token,
+                "PROJECT_ID": project_id,
+                "ENV": env,
+                "ID": id,
+            },
+            mute=True,
+            continue_on_error=True,
+        )
+
     return struct(
         get=get_key,
         set=set_key,
+        delete=delete_key,
     )

@@ -72,7 +72,10 @@ def _destroy(ctx):
         "do_token": infisical.get("K8S_DEMO_DO_TOKEN"),
     })
     # Clear the secret
-    infisical.set("K8S_DEMO_KUBECONFIG", "", env=ctx.inputs.environment["attributes"]["infisical_env"])
+    res = infisical.delete("K8S_DEMO_KUBECONFIG", env=ctx.inputs.environment["attributes"]["infisical_env"])
+    if res.exit_code != 0:
+        print("Failed to delete secret")
+        print(res.stdout)
     return done()
 
 # Staging deployment phase
