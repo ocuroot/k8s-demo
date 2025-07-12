@@ -12,13 +12,14 @@
       "inputs": {
         "build_number": {
           "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@/call/build#output/build_number",
-          "default": 0
+          "default": 0,
+          "value": 1
         }
       }
     },
     "history": [
       {
-        "time": "2025-07-12T19:54:55.403262168Z",
+        "time": "2025-07-12T19:54:56.298195587Z",
         "status": "pending"
       }
     ]
