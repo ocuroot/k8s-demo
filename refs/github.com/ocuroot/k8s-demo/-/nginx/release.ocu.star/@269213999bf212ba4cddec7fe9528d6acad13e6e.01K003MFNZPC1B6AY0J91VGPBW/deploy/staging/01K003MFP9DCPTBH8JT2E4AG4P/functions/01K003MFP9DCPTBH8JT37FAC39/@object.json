@@ -8,7 +8,7 @@
         "name": "up",
         "pos": "./tasks.ocu.star:18:1"
       },
-      "status": "running",
+      "status": "complete",
       "dependencies": [
         "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@269213999bf212ba4cddec7fe9528d6acad13e6e.01K003MFNZPC1B6AY0J91VGPBW/call/build/01K003MFP9DCPTBH8JSWJWGXHS/status/complete"
       ],
@@ -35,12 +35,17 @@
           "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@269213999bf212ba4cddec7fe9528d6acad13e6e.01K003MFNZPC1B6AY0J91VGPBW/call/build#output/message",
           "value": "Deployed from Ocuroot (1)!"
         }
+      },
+      "outputs": {
+        "loadbalancer_id": "",
+        "loadbalancer_ip": "",
+        "service_url": ""
       }
     },
     "history": [
       {
-        "time": "2025-07-12T20:11:54.629317081Z",
-        "status": "running"
+        "time": "2025-07-12T20:12:53.381748332Z",
+        "status": "complete"
       }
     ]
   }
