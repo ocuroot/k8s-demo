@@ -1,9 +1,6 @@
 {
   "kind": "ref",
   "body_type": "models.Work",
-  "links": [
-    "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@/deploy/production/1"
-  ],
   "body": {
     "type": "down",
     "release": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@f528b7afd5e5d4c3452a8bb06c0b14c5385e3144.01JZ3AJV18VMHG80429TDFPWK7",
