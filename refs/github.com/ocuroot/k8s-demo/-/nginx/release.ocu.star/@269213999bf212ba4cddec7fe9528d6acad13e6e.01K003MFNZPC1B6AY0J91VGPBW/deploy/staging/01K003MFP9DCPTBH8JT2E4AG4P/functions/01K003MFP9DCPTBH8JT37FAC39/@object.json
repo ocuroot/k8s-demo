@@ -28,7 +28,8 @@
           }
         },
         "kubeconfig_secret": {
-          "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_secret"
+          "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_secret",
+          "value": "K8S_DEMO_KUBECONFIG"
         },
         "message": {
           "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@269213999bf212ba4cddec7fe9528d6acad13e6e.01K003MFNZPC1B6AY0J91VGPBW/call/build#output/message",
@@ -38,7 +39,7 @@
     },
     "history": [
       {
-        "time": "2025-07-12T20:01:17.542013249Z",
+        "time": "2025-07-12T20:11:53.019570632Z",
         "status": "pending"
       }
     ]
