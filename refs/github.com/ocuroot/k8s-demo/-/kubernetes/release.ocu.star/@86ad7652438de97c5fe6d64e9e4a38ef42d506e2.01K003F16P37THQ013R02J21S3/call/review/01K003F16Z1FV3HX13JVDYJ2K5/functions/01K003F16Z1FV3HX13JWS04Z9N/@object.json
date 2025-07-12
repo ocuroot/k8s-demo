@@ -8,13 +8,13 @@
         "name": "review",
         "pos": "release.ocu.star:13:1"
       },
-      "status": "running",
+      "status": "complete",
       "inputs": {}
     },
     "history": [
       {
-        "time": "2025-07-12T19:58:17.182074439Z",
-        "status": "running"
+        "time": "2025-07-12T19:58:49.828735239Z",
+        "status": "complete"
       }
     ]
   }
