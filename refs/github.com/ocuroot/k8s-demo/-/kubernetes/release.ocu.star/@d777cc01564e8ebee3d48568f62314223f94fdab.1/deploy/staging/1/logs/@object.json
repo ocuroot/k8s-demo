@@ -1,0 +1,754 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-07-14T18:35:12.015723299Z",
+      "message": "/usr/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:12.026237761Z",
+      "message": "Logging in with credentials in INFISICAL_CLIENT_ID and INFISICAL_CLIENT_SECRET",
+      "attributes": {
+        "col": "14",
+        "filename": "../infisical.star",
+        "line": "46",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:12.330355175Z",
+      "message": "/usr/bin/terraform",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:12.331364376Z",
+      "message": "/home/runner/work/k8s-demo/k8s-demo/kubernetes",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:13.662402532Z",
+      "message": "- Fetching digitalocean/digitalocean 2.36.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:14.140953574Z",
+      "message": "- Retrieved digitalocean/digitalocean 2.36.0 for linux_amd64 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1mF82037E524B9C0E8\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:14.163932109Z",
+      "message": "- Fetching hashicorp/local 2.1.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:14.311915681Z",
+      "message": "- Retrieved hashicorp/local 2.1.0 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:14.337967362Z",
+      "message": "- Fetching hashicorp/random 3.6.2 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:14.476479176Z",
+      "message": "- Retrieved hashicorp/random 3.6.2 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:14.499552349Z",
+      "message": "- Fetching hashicorp/google 6.14.1 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:15.266071317Z",
+      "message": "- Retrieved hashicorp/google 6.14.1 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:15.386833186Z",
+      "message": "- Fetching vultr/vultr 2.21.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:15.90806547Z",
+      "message": "- Retrieved vultr/vultr 2.21.0 for linux_amd64 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1m853B1ED644084048\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:15.908098642Z",
+      "message": "- Obtained vultr/vultr checksums for linux_amd64; All checksums for this platform were already tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:15.908104503Z",
+      "message": "- Obtained digitalocean/digitalocean checksums for linux_amd64; All checksums for this platform were already tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:15.908111416Z",
+      "message": "- Obtained hashicorp/local checksums for linux_amd64; All checksums for this platform were already tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:15.908115253Z",
+      "message": "- Obtained hashicorp/random checksums for linux_amd64; All checksums for this platform were already tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:15.90811891Z",
+      "message": "- Obtained hashicorp/google checksums for linux_amd64; All checksums for this platform were already tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:15.908720753Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:15.908741161Z",
+      "message": "\u001b[1m\u001b[32mSuccess!\u001b[0m \u001b[1mTerraform has validated the lock file and found no need for changes.\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:15.97252238Z",
+      "message": "\u001b[0m\u001b[1mInitializing the backend...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.152794154Z",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.152836152Z",
+      "message": "Successfully configured the backend \"gcs\"! Terraform will automatically",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.152841062Z",
+      "message": "use this backend unless the backend configuration changes.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.44780772Z",
+      "message": "\u001b[0m\u001b[1mInitializing provider plugins...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.447838287Z",
+      "message": "- Reusing previous version of hashicorp/local from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.471682405Z",
+      "message": "- Reusing previous version of hashicorp/random from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.488131103Z",
+      "message": "- Reusing previous version of hashicorp/google from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.502966548Z",
+      "message": "- Reusing previous version of vultr/vultr from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.515482487Z",
+      "message": "- Reusing previous version of digitalocean/digitalocean from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.554620496Z",
+      "message": "- Installing hashicorp/random v3.6.2...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.781455572Z",
+      "message": "- Installed hashicorp/random v3.6.2 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:16.80815003Z",
+      "message": "- Installing hashicorp/google v6.14.1...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:18.130560743Z",
+      "message": "- Installed hashicorp/google v6.14.1 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:18.335522727Z",
+      "message": "- Installing vultr/vultr v2.21.0...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:18.967461417Z",
+      "message": "- Installed vultr/vultr v2.21.0 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1m853B1ED644084048\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:19.661644448Z",
+      "message": "- Installing digitalocean/digitalocean v2.36.0...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.071079746Z",
+      "message": "- Installed digitalocean/digitalocean v2.36.0 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1mF82037E524B9C0E8\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.095049589Z",
+      "message": "- Installing hashicorp/local v2.1.0...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321733351Z",
+      "message": "- Installed hashicorp/local v2.1.0 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321764018Z",
+      "message": "Partner and community providers are signed by their developers.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321768186Z",
+      "message": "If you'd like to know more about provider signing, you can read about it here:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321771563Z",
+      "message": "https://developer.hashicorp.com/terraform/cli/plugins/signing",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321775079Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321778766Z",
+      "message": "\u001b[0m\u001b[1m\u001b[32mTerraform has been successfully initialized!\u001b[0m\u001b[32m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321800406Z",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321804264Z",
+      "message": "You may now begin working with Terraform. Try running \"terraform plan\" to see",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.3218077Z",
+      "message": "any changes that are required for your infrastructure. All Terraform commands",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321811918Z",
+      "message": "should now work.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321815525Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321820053Z",
+      "message": "If you ever set or change modules or backend configuration for Terraform,",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321823139Z",
+      "message": "rerun this command to reinitialize your working directory. If you forget, other",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:20.321826285Z",
+      "message": "commands will detect it and remind you to do so if necessary.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:22.572711212Z",
+      "message": "\u001b[0m\u001b[1mrandom_id.suffix: Refreshing state... [id=hEnCR4qsDRI]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:22.585601599Z",
+      "message": "\u001b[0m\u001b[1mdigitalocean_kubernetes_cluster.k8: Refreshing state... [id=49cda12a-9e0b-4c93-85b1-ad512a766cd8]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.002221753Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.00224707Z",
+      "message": "\u001b[0m\u001b[1m\u001b[32mNo changes.\u001b[0m\u001b[1m Your infrastructure matches the configuration.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.00225223Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.002256518Z",
+      "message": "\u001b[0mTerraform has compared your real infrastructure against your configuration",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.002260886Z",
+      "message": "and found no differences, so no changes are needed.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.33398027Z",
+      "message": "\u001b[0m\u001b[1m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.33401232Z",
+      "message": "Apply complete! Resources: 0 added, 0 changed, 0 destroyed.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.33401758Z",
+      "message": "\u001b[0m\u001b[0m\u001b[1m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.334021547Z",
+      "message": "Outputs:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.334025003Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.334029281Z",
+      "message": "\u001b[0menv_name = \"ocuroot-staging-8449c2478aac0d12\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:35:23.334032507Z",
+      "message": "kubeconfig = \u003csensitive\u003e",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    }
+  ]
+}
