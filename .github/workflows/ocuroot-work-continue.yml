@@ -43,7 +43,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use the GH Actions token so we don't trigger workflows
         run: |
-          ./ocuroot state diff | xargs -n1 ./ocuroot state apply
+          ./ocuroot state diff | xargs -r -n1 ./ocuroot state apply
 
       - name: Trigger following work
         env:
