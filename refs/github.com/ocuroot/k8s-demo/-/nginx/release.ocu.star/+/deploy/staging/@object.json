@@ -3,11 +3,11 @@
   "body_type": "models.Intent",
   "body": {
     "type": "",
-    "release": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@d777cc01564e8ebee3d48568f62314223f94fdab.1",
+    "release": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@86ad7652438de97c5fe6d64e9e4a38ef42d506e2.01K003EW92AZZHHPSY14GHAR9A",
     "input": {
       "build_number": {
-        "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@d777cc01564e8ebee3d48568f62314223f94fdab.1/call/build#output/build_number",
-        "value": 7
+        "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@86ad7652438de97c5fe6d64e9e4a38ef42d506e2.01K003EW92AZZHHPSY14GHAR9A/call/build#output/build_number",
+        "value": 3
       },
       "environment": {
         "ref": "@/environment/staging",
@@ -24,7 +24,7 @@
         "value": "K8S_DEMO_KUBECONFIG"
       },
       "message": {
-        "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@d777cc01564e8ebee3d48568f62314223f94fdab.1/call/build#output/message",
+        "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@86ad7652438de97c5fe6d64e9e4a38ef42d506e2.01K003EW92AZZHHPSY14GHAR9A/call/build#output/message",
         "value": "Deployed from Ocuroot (1)!"
       }
     }
