@@ -1,0 +1,501 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-07-14T18:55:35.772157623Z",
+      "message": "Deploying nginx to production environment",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "23",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:35.773804069Z",
+      "message": "/usr/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:35.783610864Z",
+      "message": "Logging in with credentials in INFISICAL_CLIENT_ID and INFISICAL_CLIENT_SECRET",
+      "attributes": {
+        "col": "14",
+        "filename": "../infisical.star",
+        "line": "46",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:35.926298842Z",
+      "message": "Retrieving kubeconfig from Infisical using key K8S_DEMO_KUBECONFIG",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "30",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.04688787Z",
+      "message": "Successfully retrieved kubeconfig",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "36",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.04911681Z",
+      "message": "/usr/local/bin/helm",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.05425624Z",
+      "message": "/usr/bin/kubectl",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.056159087Z",
+      "message": "Testing cluster connectivity...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.498947763Z",
+      "message": "Client Version: v1.33.2",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.498982417Z",
+      "message": "Kustomize Version: v5.6.0",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.498988789Z",
+      "message": "Server Version: v1.31.9",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.499036008Z",
+      "message": "WARNING: version difference between client (1.33) and server (1.31) exceeds the supported minor version skew of +/-1",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.501251684Z",
+      "message": "Creating namespace if it doesn't exist...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "52",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.797280054Z",
+      "message": "namespace/nginx configured",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.799929147Z",
+      "message": "Adding bitnami Helm repository...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "59",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.833786784Z",
+      "message": "\"bitnami\" already exists with the same configuration, skipping",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:36.866606833Z",
+      "message": "Hang tight while we grab the latest from your chart repositories...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:39.229592693Z",
+      "message": "...Successfully got an update from the \"bitnami\" chart repository",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:39.229623511Z",
+      "message": "Update Complete. ⎈Happy Helming!⎈",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:39.235267898Z",
+      "message": "Updating Helm chart dependencies...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "67",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:39.266956992Z",
+      "message": "Hang tight while we grab the latest from your chart repositories...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:42.169401787Z",
+      "message": "...Successfully got an update from the \"bitnami\" chart repository",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:42.169428678Z",
+      "message": "Update Complete. ⎈Happy Helming!⎈",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:46.291406764Z",
+      "message": "Saving 1 charts",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:46.291554798Z",
+      "message": "Downloading nginx from repo https://charts.bitnami.com/bitnami",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:48.522382488Z",
+      "message": "Deleting outdated charts",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:48.537333621Z",
+      "message": "Installing nginx via custom Helm chart in production environment...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "74",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.46632171Z",
+      "message": "Release \"nginx-custom\" has been upgraded. Happy Helming!",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.466353599Z",
+      "message": "NAME: nginx-custom",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.46635943Z",
+      "message": "LAST DEPLOYED: Mon Jul 14 18:55:48 2025",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.4663647Z",
+      "message": "NAMESPACE: nginx",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.46637022Z",
+      "message": "STATUS: deployed",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.466375049Z",
+      "message": "REVISION: 7",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.466379758Z",
+      "message": "TEST SUITE: None",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.469330028Z",
+      "message": "Finding nginx service...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "99",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.551179785Z",
+      "message": "nginx-custom",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.553314593Z",
+      "message": "Found nginx service: nginx-custom",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "115",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.553336034Z",
+      "message": "Waiting for nginx pods to be ready...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "118",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.744781415Z",
+      "message": "pod/nginx-custom-86c6764d9d-v85sb condition met",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.747028313Z",
+      "message": "Checking for LoadBalancer IP assignment...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "126",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.835379376Z",
+      "message": "167.172.14.57",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.837554232Z",
+      "message": "Getting LoadBalancer IP...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "138",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:49.981733636Z",
+      "message": "167.172.14.57",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:50.075553036Z",
+      "message": "Nginx deployment completed in production environment.",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "168",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-14T18:55:50.075576329Z",
+      "message": "Access the service at: http://167.172.14.57",
+      "attributes": {
+        "col": "14",
+        "filename": "./tasks.ocu.star",
+        "line": "170",
+        "thread": "up"
+      },
+      "stream": 0
+    }
+  ]
+}
