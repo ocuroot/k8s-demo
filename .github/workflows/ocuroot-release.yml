@@ -14,7 +14,7 @@ jobs:
 
       - name: Download ocuroot binary
         run: |
-          curl -L -o ocuroot https://downloads.ocuroot.com/ocuroot/0.3.5-7/linux-amd64/ocuroot
+          curl -L -o ocuroot ${{ vars.OCUROOT_BINARY }}
           chmod +x ocuroot
 
       - name: Configure Git
@@ -26,7 +26,7 @@ jobs:
         env:
           INFISICAL_CLIENT_ID: ${{ secrets.INFISICAL_CLIENT_ID }}
           INFISICAL_CLIENT_SECRET: ${{ secrets.INFISICAL_CLIENT_SECRET }}
-          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use the GH Actions token so we don't trigger workflows
         run: |
           ./ocuroot release new environments/release.ocu.star
           ./ocuroot release new nginx/release.ocu.star
@@ -34,5 +34,5 @@ jobs:
 
       - name: Trigger following work
         env:
-          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }} # Use the PAT token so we can trigger workflows
         run: ./ocuroot work trigger
