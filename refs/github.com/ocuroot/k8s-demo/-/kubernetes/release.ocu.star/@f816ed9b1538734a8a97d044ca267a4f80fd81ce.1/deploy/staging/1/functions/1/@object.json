@@ -8,7 +8,7 @@
         "name": "_deploy",
         "pos": "release.ocu.star:46:1"
       },
-      "status": "running",
+      "status": "complete",
       "dependencies": [
         "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@f816ed9b1538734a8a97d044ca267a4f80fd81ce.1/call/review/1/status/complete"
       ],
@@ -23,12 +23,16 @@
             "name": "staging"
           }
         }
+      },
+      "outputs": {
+        "env_name": "ocuroot-staging-8449c2478aac0d12",
+        "kubeconfig_secret": "K8S_DEMO_KUBECONFIG"
       }
     },
     "history": [
       {
-        "time": "2025-07-14T18:53:06.117186175Z",
-        "status": "running"
+        "time": "2025-07-14T18:53:19.144957096Z",
+        "status": "complete"
       }
     ]
   }
