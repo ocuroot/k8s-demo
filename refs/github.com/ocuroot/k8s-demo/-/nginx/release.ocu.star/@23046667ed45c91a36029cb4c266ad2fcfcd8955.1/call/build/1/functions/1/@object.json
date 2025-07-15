@@ -8,19 +8,23 @@
         "name": "build",
         "pos": "./tasks.ocu.star:6:1"
       },
-      "status": "running",
+      "status": "complete",
       "inputs": {
         "build_number": {
           "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@/call/build#output/build_number",
           "default": 0,
           "value": 8
         }
+      },
+      "outputs": {
+        "build_number": 9,
+        "message": "Deployed from Ocuroot (1)!"
       }
     },
     "history": [
       {
-        "time": "2025-07-15T23:56:00.569095019Z",
-        "status": "running"
+        "time": "2025-07-15T23:56:01.726870852Z",
+        "status": "complete"
       }
     ]
   }
