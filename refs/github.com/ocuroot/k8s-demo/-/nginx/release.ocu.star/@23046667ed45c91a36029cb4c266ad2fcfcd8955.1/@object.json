@@ -1,0 +1,140 @@
+{
+  "kind": "ref",
+  "body_type": "release.ReleaseInfo",
+  "body": {
+    "commit": "23046667ed45c91a36029cb4c266ad2fcfcd8955",
+    "package": {
+      "functions": {
+        "build/./tasks.ocu.star:6:1": {
+          "function": {
+            "name": "build",
+            "pos": "./tasks.ocu.star:6:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "build",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        },
+        "down/./tasks.ocu.star:183:1": {
+          "function": {
+            "name": "down",
+            "pos": "./tasks.ocu.star:183:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "down",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        },
+        "up/./tasks.ocu.star:18:1": {
+          "function": {
+            "name": "up",
+            "pos": "./tasks.ocu.star:18:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "up",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        }
+      },
+      "phases": [
+        {
+          "name": "build",
+          "work": [
+            {
+              "call": {
+                "name": "build",
+                "inputs": {
+                  "build_number": {
+                    "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@/call/build#output/build_number",
+                    "default": 0
+                  }
+                },
+                "fn": {
+                  "name": "build",
+                  "pos": "./tasks.ocu.star:6:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "staging",
+          "work": [
+            {
+              "deploy": {
+                "environment": "staging",
+                "up": {
+                  "name": "up",
+                  "pos": "./tasks.ocu.star:18:1"
+                },
+                "down": {
+                  "name": "down",
+                  "pos": "./tasks.ocu.star:183:1"
+                },
+                "inputs": {
+                  "build_number": {
+                    "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@23046667ed45c91a36029cb4c266ad2fcfcd8955.1/call/build#output/build_number"
+                  },
+                  "environment": {
+                    "ref": "@/environment/staging"
+                  },
+                  "kubeconfig_secret": {
+                    "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_secret"
+                  },
+                  "message": {
+                    "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@23046667ed45c91a36029cb4c266ad2fcfcd8955.1/call/build#output/message"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "production",
+          "work": [
+            {
+              "deploy": {
+                "environment": "production",
+                "up": {
+                  "name": "up",
+                  "pos": "./tasks.ocu.star:18:1"
+                },
+                "down": {
+                  "name": "down",
+                  "pos": "./tasks.ocu.star:183:1"
+                },
+                "inputs": {
+                  "build_number": {
+                    "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@23046667ed45c91a36029cb4c266ad2fcfcd8955.1/call/build#output/build_number"
+                  },
+                  "environment": {
+                    "ref": "@/environment/production"
+                  },
+                  "kubeconfig_secret": {
+                    "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/production#output/kubeconfig_secret"
+                  },
+                  "message": {
+                    "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@23046667ed45c91a36029cb4c266ad2fcfcd8955.1/call/build#output/message"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "deployments": null
+    }
+  }
+}
