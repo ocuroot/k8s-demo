@@ -1,0 +1,48 @@
+{
+  "kind": "ref",
+  "body_type": "release.FunctionState",
+  "body": {
+    "current": {
+      "id": "1",
+      "fn": {
+        "name": "up",
+        "pos": "./tasks.ocu.star:18:1"
+      },
+      "status": "pending",
+      "inputs": {
+        "build_number": {
+          "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@083f15a176aa82a5caa7ac4a221582267337cc17.1/call/build#output/build_number",
+          "value": 19
+        },
+        "environment": {
+          "ref": "@/environment/staging",
+          "value": {
+            "attributes": {
+              "infisical_env": "staging",
+              "type": "staging"
+            },
+            "name": "staging"
+          }
+        },
+        "kubeconfig_secret": {
+          "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_secret",
+          "value": "K8S_DEMO_KUBECONFIG"
+        },
+        "kubeconfig_sha256": {
+          "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_sha256",
+          "value": "7d8a48eebe1ae66d8c87d57ff5688ac74472c8bb00de3333f63578ecb7e1aa22"
+        },
+        "message": {
+          "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@083f15a176aa82a5caa7ac4a221582267337cc17.1/call/build#output/message",
+          "value": "Deployed from Ocuroot (1)!"
+        }
+      }
+    },
+    "history": [
+      {
+        "time": "2025-07-16T13:57:58.633632997Z",
+        "status": "pending"
+      }
+    ]
+  }
+}
