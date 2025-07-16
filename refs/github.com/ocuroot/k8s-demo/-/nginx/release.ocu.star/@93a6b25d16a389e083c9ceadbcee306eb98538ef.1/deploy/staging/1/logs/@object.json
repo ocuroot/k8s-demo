@@ -1,0 +1,1799 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-07-16T13:36:41.337340047Z",
+      "message": "Deploying nginx to staging environment",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "23",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.339663815Z",
+      "message": "Installing infisical",
+      "attributes": {
+        "col": "14",
+        "filename": "../infisical.star",
+        "line": "24",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.343273729Z",
+      "message": "/usr/bin/apt-get",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.453028139Z",
+      "message": "Executing the  setup script for the 'infisical/infisical-cli' repository ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.45439166Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.455005469Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for required executable 'curl' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.45518785Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.456612674Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.457242462Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for required executable 'curl' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.458632843Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.459178003Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for required executable 'apt-get' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.459363052Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.460478646Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.461045397Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for required executable 'apt-get' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.464394064Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.464963219Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.465190983Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.46630654Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.466865796Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Detecting your OS distribution and release using system methods ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.466976506Z",
+      "message": " ^^^^: ... Detected/provided for your OS/distribution, version and architecture:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.466987306Z",
+      "message": " \u003e\u003e\u003e\u003e:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.466994139Z",
+      "message": " \u003e\u003e\u003e\u003e: ... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.467442796Z",
+      "message": "distro=\u001b[32mubuntu\u001b[39;49m  version=\u001b[32m24.04\u001b[39;49m  codename=\u001b[32mnoble\u001b[39;49m  arch=\u001b[32mx86_64\u001b[39;49m  ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.467456411Z",
+      "message": " \u003e\u003e\u003e\u003e:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.469099498Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.469645379Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for apt dependency 'apt-transport-https' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.488129632Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.489570345Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.490180346Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt dependency 'apt-transport-https' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.491443722Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.492027895Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for apt dependency 'ca-certificates' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.508691451Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.510052788Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.510570216Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt dependency 'ca-certificates' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.511966829Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.51248025Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for apt dependency 'gnupg' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.528769676Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.530232764Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.530866178Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt dependency 'gnupg' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.532169307Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.532710669Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Importing 'infisical/infisical-cli' repository GPG keys ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.623806643Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.62500362Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.625568207Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt signed-by key support ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.625704194Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.626976314Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.627504091Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Importing 'infisical/infisical-cli' repository GPG keys ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.628873563Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.62940081Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking if upstream install config is OK ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.676280235Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.677719538Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.678309632Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking if upstream install config is OK ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.679748394Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.680318781Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Installing 'infisical/infisical-cli' repository via apt ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.726979109Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.728238415Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.728837736Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Installing 'infisical/infisical-cli' repository via apt ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.731792184Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:41.732428284Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Updating apt repository metadata cache ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.344436061Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.345745882Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.346364469Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Updating apt repository metadata cache ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.34788218Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.34912068Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.349746651Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: The repository has been installed successfully - You're ready to rock!",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.349840143Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.421215293Z",
+      "message": "Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.453386096Z",
+      "message": "Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.453425519Z",
+      "message": "Hit:6 https://packages.microsoft.com/repos/azure-cli noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.454449072Z",
+      "message": "Hit:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.454919363Z",
+      "message": "Hit:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.456123806Z",
+      "message": "Hit:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.458602878Z",
+      "message": "Hit:7 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.471130579Z",
+      "message": "Get:8 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble InRelease [4437 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.963262253Z",
+      "message": "Fetched 4437 B in 0s (10.4 kB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:50.963293432Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:51.808250181Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:51.832281624Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:51.84507227Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:51.848249125Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.092359246Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.09239348Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.093376529Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.389893325Z",
+      "message": "The following NEW packages will be installed:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.391078352Z",
+      "message": "  infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.434885125Z",
+      "message": "0 upgraded, 1 newly installed, 0 to remove and 33 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.434915912Z",
+      "message": "Need to get 18.9 MB of archives.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.434921873Z",
+      "message": "After this operation, 37.4 MB of additional disk space will be used.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.434926853Z",
+      "message": "Get:1 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble/main amd64 infisical amd64 0.38.0 [18.9 MB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.850778359Z",
+      "message": "Fetched 18.9 MB in 0s (127 MB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.874208463Z",
+      "message": "Selecting previously unselected package infisical.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.874235524Z",
+      "message": "(Reading database ... \r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.894452045Z",
+      "message": "(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.894489435Z",
+      "message": "(Reading database ... 30%\r(Reading database ... 35%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.89450278Z",
+      "message": "(Reading database ... 40%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.894510093Z",
+      "message": "(Reading database ... 45%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.894626251Z",
+      "message": "(Reading database ... 50%\r(Reading database ... 55%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.904079921Z",
+      "message": "(Reading database ... 60%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.922457571Z",
+      "message": "(Reading database ... 65%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.939560926Z",
+      "message": "(Reading database ... 70%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.971684197Z",
+      "message": "(Reading database ... 75%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:52.991051579Z",
+      "message": "(Reading database ... 80%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:53.014292339Z",
+      "message": "(Reading database ... 85%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:53.040542007Z",
+      "message": "(Reading database ... 90%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:53.127986079Z",
+      "message": "(Reading database ... 95%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:53.150951444Z",
+      "message": "(Reading database ... 100%\r(Reading database ... 219506 files and directories currently installed.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:53.156606777Z",
+      "message": "Preparing to unpack .../infisical_0.38.0_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:53.159840297Z",
+      "message": "Unpacking infisical (0.38.0) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:53.37121974Z",
+      "message": "Setting up infisical (0.38.0) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:36:53.374761578Z",
+      "message": "Processing triggers for man-db (2.12.0-4build2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:00.29990417Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:00.299932904Z",
+      "message": "Running kernel seems to be up-to-date.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:00.299944115Z",
+      "message": "Restarting services...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:00.307836806Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:00.307893743Z",
+      "message": "Service restarts being deferred:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:00.308071415Z",
+      "message": " systemctl restart hosted-compute-agent.service",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:00.308183855Z",
+      "message": "No containers need to be restarted.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:00.308193734Z",
+      "message": "No user sessions are running outdated binaries.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:00.308198212Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:00.30821829Z",
+      "message": "No VM guests are running outdated hypervisor (qemu) binaries on this host.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:01.721611048Z",
+      "message": "Logging in with credentials in INFISICAL_CLIENT_ID and INFISICAL_CLIENT_SECRET",
+      "attributes": {
+        "col": "14",
+        "filename": "../infisical.star",
+        "line": "46",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:01.959367776Z",
+      "message": "Retrieving kubeconfig from Infisical using key K8S_DEMO_KUBECONFIG",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "30",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:02.623132992Z",
+      "message": "Successfully retrieved kubeconfig",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "36",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:02.625014182Z",
+      "message": "/usr/local/bin/helm",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:02.636688577Z",
+      "message": "/usr/bin/kubectl",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:02.638763406Z",
+      "message": "Testing cluster connectivity...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:05.810939207Z",
+      "message": "Client Version: v1.33.2",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:05.810974683Z",
+      "message": "Kustomize Version: v5.6.0",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:05.810981406Z",
+      "message": "Server Version: v1.31.9",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:05.811002125Z",
+      "message": "WARNING: version difference between client (1.33) and server (1.31) exceeds the supported minor version skew of +/-1",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:05.814347154Z",
+      "message": "Creating namespace if it doesn't exist...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "52",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:06.269807641Z",
+      "message": "namespace/nginx configured",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:06.273328209Z",
+      "message": "Adding bitnami Helm repository...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "59",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:11.62938318Z",
+      "message": "\"bitnami\" has been added to your repositories",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:11.690871809Z",
+      "message": "Hang tight while we grab the latest from your chart repositories...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:14.408417559Z",
+      "message": "...Successfully got an update from the \"bitnami\" chart repository",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:14.408499923Z",
+      "message": "Update Complete. ⎈Happy Helming!⎈",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:14.417401993Z",
+      "message": "Updating Helm chart dependencies...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "67",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:14.450786346Z",
+      "message": "Hang tight while we grab the latest from your chart repositories...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:17.028015597Z",
+      "message": "...Successfully got an update from the \"bitnami\" chart repository",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:17.028046154Z",
+      "message": "Update Complete. ⎈Happy Helming!⎈",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:21.641191164Z",
+      "message": "Saving 1 charts",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:21.641325145Z",
+      "message": "Downloading nginx from repo https://charts.bitnami.com/bitnami",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:23.994213498Z",
+      "message": "Deleting outdated charts",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:24.010322931Z",
+      "message": "Installing nginx via custom Helm chart in staging environment...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "74",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.048564412Z",
+      "message": "Release \"nginx-custom\" has been upgraded. Happy Helming!",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.048594568Z",
+      "message": "NAME: nginx-custom",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.048609095Z",
+      "message": "LAST DEPLOYED: Wed Jul 16 13:37:24 2025",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.048614616Z",
+      "message": "NAMESPACE: nginx",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.048620637Z",
+      "message": "STATUS: deployed",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.048624875Z",
+      "message": "REVISION: 4",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.048628992Z",
+      "message": "TEST SUITE: None",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.052795909Z",
+      "message": "Finding nginx service...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "99",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.167208176Z",
+      "message": "nginx-custom",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.16995338Z",
+      "message": "Found nginx service: nginx-custom",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "115",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.169977395Z",
+      "message": "Waiting for nginx pods to be ready...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "118",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.392604751Z",
+      "message": "pod/nginx-custom-86c6764d9d-dzd2x condition met",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.396381861Z",
+      "message": "Checking for LoadBalancer IP assignment...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "126",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.495656724Z",
+      "message": "129.212.138.180",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.498611791Z",
+      "message": "Getting LoadBalancer IP...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "138",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.60454295Z",
+      "message": "129.212.138.180",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.700563432Z",
+      "message": "Nginx deployment completed in staging environment.",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "168",
+        "thread": "up"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:37:25.700593819Z",
+      "message": "Access the service at: http://129.212.138.180",
+      "attributes": {
+        "col": "14",
+        "filename": "./tasks.ocu.star",
+        "line": "170",
+        "thread": "up"
+      },
+      "stream": 0
+    }
+  ]
+}
