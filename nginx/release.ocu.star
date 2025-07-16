@@ -32,6 +32,8 @@ phase(
             inputs={
                 "build_number": ref("./call/build#output/build_number"),
                 "message": ref("./call/build#output/message"),
+                # Force a redeploy if the cluster is recreated
+                "k8s_env_name": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/env_name".format(environment.name)),
                 "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),
             },
         ) for environment in staging
@@ -49,6 +51,8 @@ phase(
             inputs={
                 "build_number": ref("./call/build#output/build_number"),
                 "message": ref("./call/build#output/message"),
+                # Force a redeploy if the cluster is recreated
+                "k8s_env_name": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/env_name".format(environment.name)),
                 "kubeconfig_secret": ref("./-/kubernetes/release.ocu.star/@/deploy/{}#output/kubeconfig_secret".format(environment.name)),
             },
         ) for environment in prod

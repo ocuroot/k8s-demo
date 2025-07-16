@@ -2,10 +2,6 @@ terraform {
     required_version = ">= 1.6.3"
 
     required_providers {
-        vultr = {
-            source = "vultr/vultr"
-            version = "2.21.0"
-        }
         digitalocean = {
             source = "digitalocean/digitalocean"
             version = "2.36.0"
@@ -33,13 +29,6 @@ terraform {
 provider "google" {
   project     = "hosted-ocuroot"
   region      = "us-west1"
-}
-
-# Configure the Vultr Provider
-provider "vultr" {
-  api_key = var.vultr_api_key
-  rate_limit = 100
-  retry_limit = 3
 }
 
 # Configure the DigitalOcean Provider

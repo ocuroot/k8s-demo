@@ -20,7 +20,6 @@ def review(ctx):
     # HA
     tf.validate(
         vars = {
-            "vultr_api_key": infisical.get("VULTR_API_KEY"),
             "do_token": infisical.get("K8S_DEMO_DO_TOKEN"),
             "min_nodes": "2",
             "max_nodes": "6",
@@ -30,7 +29,6 @@ def review(ctx):
     # Non-HA
     tf.validate(
         vars = {
-            "vultr_api_key": infisical.get("VULTR_API_KEY"),
             "do_token": infisical.get("K8S_DEMO_DO_TOKEN"),
             "min_nodes": "1",
             "max_nodes": "2",
@@ -47,7 +45,6 @@ def _deploy(ctx):
     infisical = setup_infisical(project_id="f7b78b62-9edc-4b41-bc87-37c80b350c10")
     tf = setup_tf({}, environment_from_dict(ctx.inputs.environment), "kubernetes", infisical)
     outputs = tf.apply(vars = {
-        "vultr_api_key": infisical.get("VULTR_API_KEY"),
         "do_token": infisical.get("K8S_DEMO_DO_TOKEN"),
         "min_nodes": "2",
         "max_nodes": "4",
@@ -68,7 +65,6 @@ def _destroy(ctx):
     infisical = setup_infisical(project_id="f7b78b62-9edc-4b41-bc87-37c80b350c10")
     tf = setup_tf({}, environment_from_dict(ctx.inputs.environment), "kubernetes", infisical)
     outputs = tf.destroy(vars = {
-        "vultr_api_key": infisical.get("VULTR_API_KEY"),
         "do_token": infisical.get("K8S_DEMO_DO_TOKEN"),
     })
     # Clear the secret
