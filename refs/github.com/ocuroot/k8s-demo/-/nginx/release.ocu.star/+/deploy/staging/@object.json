@@ -3,11 +3,11 @@
   "body_type": "models.Intent",
   "body": {
     "type": "",
-    "release": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@c92ba4fdd98e3de6d8c18578dbe8a083e0097de0.1",
+    "release": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@b4cc7d8da3b7f392ffafd2b56f53f301d9428364.1",
     "input": {
       "build_number": {
-        "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@c92ba4fdd98e3de6d8c18578dbe8a083e0097de0.1/call/build#output/build_number",
-        "value": 11
+        "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@b4cc7d8da3b7f392ffafd2b56f53f301d9428364.1/call/build#output/build_number",
+        "value": 12
       },
       "environment": {
         "ref": "@/environment/staging",
@@ -19,12 +19,16 @@
           "name": "staging"
         }
       },
+      "k8s_env_name": {
+        "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/env_name",
+        "value": "ocuroot-staging-46999d141d73019a"
+      },
       "kubeconfig_secret": {
         "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_secret",
         "value": "K8S_DEMO_KUBECONFIG"
       },
       "message": {
-        "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@c92ba4fdd98e3de6d8c18578dbe8a083e0097de0.1/call/build#output/message",
+        "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@b4cc7d8da3b7f392ffafd2b56f53f301d9428364.1/call/build#output/message",
         "value": "Deployed from Ocuroot (1)!"
       }
     }
