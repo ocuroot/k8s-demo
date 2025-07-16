@@ -32,7 +32,8 @@
           "value": "K8S_DEMO_KUBECONFIG"
         },
         "kubeconfig_sha256": {
-          "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_sha256"
+          "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_sha256",
+          "value": "7d8a48eebe1ae66d8c87d57ff5688ac74472c8bb00de3333f63578ecb7e1aa22"
         },
         "message": {
           "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@f3316c44c22da81947e5651abcb95df1bccd869c.1/call/build#output/message",
@@ -42,7 +43,7 @@
     },
     "history": [
       {
-        "time": "2025-07-16T13:02:39.981424243Z",
+        "time": "2025-07-16T13:11:31.592687225Z",
         "status": "pending"
       }
     ]
