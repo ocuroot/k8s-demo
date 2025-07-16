@@ -1,10 +1,6 @@
 {
   "kind": "ref",
   "body_type": "models.Work",
-  "links": [
-    "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/call/review/1",
-    "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/call/review"
-  ],
   "body": {
     "type": "",
     "release": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@819d217d38718c7383d0cefb68d20e39c105d529.1",
