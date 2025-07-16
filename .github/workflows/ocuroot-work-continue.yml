@@ -8,6 +8,8 @@ on:
         required: true
         type: string
 
+run-name: Continue on ${{ github.event.inputs.commit_sha }}
+
 jobs:
   continue:
     runs-on: ubuntu-latest
@@ -36,7 +38,6 @@ jobs:
           INFISICAL_CLIENT_ID: ${{ secrets.INFISICAL_CLIENT_ID }}
           INFISICAL_CLIENT_SECRET: ${{ secrets.INFISICAL_CLIENT_SECRET }}
         run: ./ocuroot work continue
-
 
       # Handle intent changes and trigger related work
       - name: Apply all intent

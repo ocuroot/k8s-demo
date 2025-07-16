@@ -58,6 +58,7 @@ def _deploy(ctx):
         outputs={
             "env_name": outputs["env_name"],
             "kubeconfig_secret": secret_name,
+            "kubeconfig_sha256": outputs["kubeconfig_sha256"],
         },
     )
 
