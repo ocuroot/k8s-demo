@@ -1,10 +1,6 @@
 {
   "kind": "ref",
   "body_type": "models.Work",
-  "links": [
-    "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@/deploy/staging",
-    "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@/deploy/staging/1"
-  ],
   "body": {
     "type": "",
     "release": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@93a6b25d16a389e083c9ceadbcee306eb98538ef.1",
