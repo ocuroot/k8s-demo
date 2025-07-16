@@ -1,0 +1,28 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-07-16T13:47:11.566401305Z",
+      "message": "Message is: Deployed from Ocuroot (1)!",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "9",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:47:11.566424508Z",
+      "message": "Build number is: 18",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "10",
+        "thread": "build"
+      },
+      "stream": 0
+    }
+  ]
+}
