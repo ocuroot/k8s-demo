@@ -8,7 +8,7 @@
         "name": "up",
         "pos": "./tasks.ocu.star:18:1"
       },
-      "status": "pending",
+      "status": "running",
       "inputs": {
         "build_number": {
           "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@819d217d38718c7383d0cefb68d20e39c105d529.1/call/build#output/build_number",
@@ -40,8 +40,8 @@
     },
     "history": [
       {
-        "time": "2025-07-16T13:58:15.341866993Z",
-        "status": "pending"
+        "time": "2025-07-16T13:58:16.309894175Z",
+        "status": "running"
       }
     ]
   }
