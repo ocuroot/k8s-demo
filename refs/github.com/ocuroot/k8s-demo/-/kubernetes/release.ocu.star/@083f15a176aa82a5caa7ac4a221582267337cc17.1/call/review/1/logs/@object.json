@@ -1,0 +1,1821 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-07-16T13:52:22.517405832Z",
+      "message": "/usr/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:22.528783452Z",
+      "message": "Logging in with credentials in INFISICAL_CLIENT_ID and INFISICAL_CLIENT_SECRET",
+      "attributes": {
+        "col": "14",
+        "filename": "../infisical.star",
+        "line": "46",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:22.777154064Z",
+      "message": "/usr/bin/apt-get",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:22.846657533Z",
+      "message": "Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:22.866517205Z",
+      "message": "Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:22.867836844Z",
+      "message": "Hit:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:22.868535521Z",
+      "message": "Hit:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:22.869224571Z",
+      "message": "Hit:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:22.904465423Z",
+      "message": "Hit:6 https://packages.microsoft.com/repos/azure-cli noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:22.916113696Z",
+      "message": "Get:7 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble InRelease [4437 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:22.926635318Z",
+      "message": "Hit:8 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:23.314707179Z",
+      "message": "Fetched 4437 B in 0s (12.2 kB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:23.314740351Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.006116103Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.027018383Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.037257224Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.040025037Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.203541797Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.203570902Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.204326445Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.375421214Z",
+      "message": "gnupg is already the newest version (2.4.4-2ubuntu17.3).",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.375449667Z",
+      "message": "software-properties-common is already the newest version (0.99.49.2).",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.375456069Z",
+      "message": "0 upgraded, 0 newly installed, 0 to remove and 33 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.381531553Z",
+      "message": "--2025-07-16 13:52:24--  https://apt.releases.hashicorp.com/gpg",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.405490492Z",
+      "message": "Resolving apt.releases.hashicorp.com (apt.releases.hashicorp.com)... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.465594524Z",
+      "message": "18.238.96.22, 18.238.96.76, 18.238.96.119, ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.465613489Z",
+      "message": "Connecting to apt.releases.hashicorp.com (apt.releases.hashicorp.com)|18.238.96.22|:443... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.46784352Z",
+      "message": "connected.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.472477045Z",
+      "message": "HTTP request sent, awaiting response... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479183447Z",
+      "message": "200 OK",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479200269Z",
+      "message": "Length: 3980",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479207722Z",
+      "message": " (3.9K) [binary/octet-stream]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479212091Z",
+      "message": "Saving to: ‘STDOUT’",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479216348Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479221288Z",
+      "message": "     0K ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479227059Z",
+      "message": "...                 ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479232759Z",
+      "message": "      ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479240163Z",
+      "message": "        ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479246004Z",
+      "message": "      ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479252306Z",
+      "message": "      ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479262284Z",
+      "message": "        100%",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479269197Z",
+      "message": " 1.19G=0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.479488016Z",
+      "message": "2025-07-16 13:52:24 (1.19 GB/s) - written to stdout [3980/3980]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.491457979Z",
+      "message": "gpg: directory '/home/runner/.gnupg' created",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.491620967Z",
+      "message": "gpg: /home/runner/.gnupg/trustdb.gpg: trustdb created",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.49229627Z",
+      "message": "/usr/share/keyrings/hashicorp-archive-keyring.gpg",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.492305026Z",
+      "message": "-------------------------------------------------",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.492309154Z",
+      "message": "pub   rsa4096 2023-01-10 [SC] [expires: 2028-01-09]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.492313332Z",
+      "message": "      798A EC65 4E5C 1542 8C8E  42EE AA16 FCBC A621 E701",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.492316758Z",
+      "message": "uid           [ unknown] HashiCorp Security (HashiCorp Package Signing) \u003csecurity+packaging@hashicorp.com\u003e",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.492321777Z",
+      "message": "sub   rsa4096 2023-01-10 [S] [expires: 2028-01-09]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.500417287Z",
+      "message": "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]             https://apt.releases.hashicorp.com noble main",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.510153081Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.510166677Z",
+      "message": "WARNING: apt does not have a stable CLI interface. Use with caution in scripts.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.559153386Z",
+      "message": "Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.584577152Z",
+      "message": "Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.586442856Z",
+      "message": "Hit:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.587142705Z",
+      "message": "Hit:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.587837624Z",
+      "message": "Hit:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.593416728Z",
+      "message": "Hit:6 https://packages.microsoft.com/repos/azure-cli noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.599900244Z",
+      "message": "Hit:7 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.61850956Z",
+      "message": "Get:8 https://apt.releases.hashicorp.com noble InRelease [12.9 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.790258234Z",
+      "message": "Get:9 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble InRelease [4437 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:24.913835392Z",
+      "message": "Get:10 https://apt.releases.hashicorp.com noble/main amd64 Packages [191 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:25.08472132Z",
+      "message": "Fetched 209 kB in 0s (491 kB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:25.084749563Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:25.791903387Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:25.801827988Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:25.960008756Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:25.960035325Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:25.96081328Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:25.976541865Z",
+      "message": "33 packages can be upgraded. Run 'apt list --upgradable' to see them.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:25.990581093Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.000925328Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.003817466Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.159269231Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.159293687Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.160115664Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.309904298Z",
+      "message": "The following NEW packages will be installed:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.309935296Z",
+      "message": "  terraform",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.383348388Z",
+      "message": "0 upgraded, 1 newly installed, 0 to remove and 33 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.383366902Z",
+      "message": "Need to get 28.4 MB of archives.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.383394694Z",
+      "message": "After this operation, 93.6 MB of additional disk space will be used.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.383399854Z",
+      "message": "Get:1 https://apt.releases.hashicorp.com noble/main amd64 terraform amd64 1.12.2-1 [28.4 MB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.737259593Z",
+      "message": "Fetched 28.4 MB in 0s (161 MB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.757008025Z",
+      "message": "Selecting previously unselected package terraform.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.757028424Z",
+      "message": "(Reading database ... \r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.762300042Z",
+      "message": "(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.762345672Z",
+      "message": "(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.762391057Z",
+      "message": "(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.765454971Z",
+      "message": "(Reading database ... 60%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.767506474Z",
+      "message": "(Reading database ... 65%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.769126804Z",
+      "message": "(Reading database ... 70%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.779100967Z",
+      "message": "(Reading database ... 75%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.781520802Z",
+      "message": "(Reading database ... 80%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.783897837Z",
+      "message": "(Reading database ... 85%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.787397182Z",
+      "message": "(Reading database ... 90%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.827744166Z",
+      "message": "(Reading database ... 95%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.830493427Z",
+      "message": "(Reading database ... 100%\r(Reading database ... 219511 files and directories currently installed.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.834403439Z",
+      "message": "Preparing to unpack .../terraform_1.12.2-1_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:26.836152941Z",
+      "message": "Unpacking terraform (1.12.2-1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.244259483Z",
+      "message": "Setting up terraform (1.12.2-1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.86941627Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.86945381Z",
+      "message": "Running kernel seems to be up-to-date.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.869460342Z",
+      "message": "Restarting services...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.875950871Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.875986758Z",
+      "message": "Service restarts being deferred:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.876018808Z",
+      "message": " systemctl restart hosted-compute-agent.service",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.876178907Z",
+      "message": "No containers need to be restarted.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.876189607Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.876197342Z",
+      "message": "No user sessions are running outdated binaries.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.876201981Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:27.876205668Z",
+      "message": "No VM guests are running outdated hypervisor (qemu) binaries on this host.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:28.794588159Z",
+      "message": "/home/runner/work/k8s-demo/k8s-demo/kubernetes",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:29.7695727Z",
+      "message": "- Fetching digitalocean/digitalocean 2.36.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:30.302961319Z",
+      "message": "- Retrieved digitalocean/digitalocean 2.36.0 for linux_amd64 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1mF82037E524B9C0E8\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:30.395394115Z",
+      "message": "- Fetching hashicorp/local 2.1.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:30.60342176Z",
+      "message": "- Retrieved hashicorp/local 2.1.0 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:30.660242087Z",
+      "message": "- Fetching hashicorp/random 3.6.2 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:30.871873626Z",
+      "message": "- Retrieved hashicorp/random 3.6.2 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:30.927318066Z",
+      "message": "- Fetching hashicorp/google 6.14.1 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:31.76160368Z",
+      "message": "- Retrieved hashicorp/google 6.14.1 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:31.761631101Z",
+      "message": "- Obtained hashicorp/random checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:31.761635129Z",
+      "message": "- Obtained hashicorp/google checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:31.761638104Z",
+      "message": "- Obtained digitalocean/digitalocean checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:31.76164088Z",
+      "message": "- Obtained hashicorp/local checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:31.761970686Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:31.761982458Z",
+      "message": "\u001b[1m\u001b[32mSuccess!\u001b[0m \u001b[1mTerraform has updated the lock file.\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:31.761986486Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:31.761990413Z",
+      "message": "Review the changes in .terraform.lock.hcl and then commit to your",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:31.76199413Z",
+      "message": "version control system to retain the new checksums.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:31.819713358Z",
+      "message": "\u001b[0m\u001b[1mInitializing the backend...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:32.000104936Z",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:32.000134411Z",
+      "message": "Successfully configured the backend \"gcs\"! Terraform will automatically",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:32.000139851Z",
+      "message": "use this backend unless the backend configuration changes.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:32.328496125Z",
+      "message": "\u001b[0m\u001b[1mInitializing provider plugins...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:32.328521062Z",
+      "message": "- Reusing previous version of hashicorp/google from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:32.35400804Z",
+      "message": "- Reusing previous version of digitalocean/digitalocean from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:32.366210858Z",
+      "message": "- Reusing previous version of hashicorp/local from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:32.378027802Z",
+      "message": "- Reusing previous version of hashicorp/random from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:32.44585424Z",
+      "message": "- Installing hashicorp/google v6.14.1...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:33.833327492Z",
+      "message": "- Installed hashicorp/google v6.14.1 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:34.966014786Z",
+      "message": "- Installing digitalocean/digitalocean v2.36.0...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:35.585832741Z",
+      "message": "- Installed digitalocean/digitalocean v2.36.0 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1mF82037E524B9C0E8\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:35.65092256Z",
+      "message": "- Installing hashicorp/local v2.1.0...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:35.951533049Z",
+      "message": "- Installed hashicorp/local v2.1.0 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.006905128Z",
+      "message": "- Installing hashicorp/random v3.6.2...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303157191Z",
+      "message": "- Installed hashicorp/random v3.6.2 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303190804Z",
+      "message": "Partner and community providers are signed by their developers.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303196445Z",
+      "message": "If you'd like to know more about provider signing, you can read about it here:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303201033Z",
+      "message": "https://developer.hashicorp.com/terraform/cli/plugins/signing",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303206083Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.30321021Z",
+      "message": "\u001b[0m\u001b[1m\u001b[32mTerraform has been successfully initialized!\u001b[0m\u001b[32m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303221021Z",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303227633Z",
+      "message": "You may now begin working with Terraform. Try running \"terraform plan\" to see",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.30323163Z",
+      "message": "any changes that are required for your infrastructure. All Terraform commands",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303238984Z",
+      "message": "should now work.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303243112Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303247099Z",
+      "message": "If you ever set or change modules or backend configuration for Terraform,",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303250836Z",
+      "message": "rerun this command to reinitialize your working directory. If you forget, other",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:36.303254954Z",
+      "message": "commands will detect it and remind you to do so if necessary.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:37.228321573Z",
+      "message": "\u001b[32m\u001b[1mSuccess!\u001b[0m The configuration is valid.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:37.228348544Z",
+      "message": "\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:38.122957743Z",
+      "message": "\u001b[32m\u001b[1mSuccess!\u001b[0m The configuration is valid.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-16T13:52:38.122982609Z",
+      "message": "\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "review"
+      },
+      "stream": 0
+    }
+  ]
+}
