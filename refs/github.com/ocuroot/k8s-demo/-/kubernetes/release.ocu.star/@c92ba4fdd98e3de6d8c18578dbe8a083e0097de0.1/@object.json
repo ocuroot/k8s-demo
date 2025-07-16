@@ -1,0 +1,135 @@
+{
+  "kind": "ref",
+  "body_type": "release.ReleaseInfo",
+  "body": {
+    "commit": "c92ba4fdd98e3de6d8c18578dbe8a083e0097de0",
+    "package": {
+      "functions": {
+        "_deploy/release.ocu.star:46:1": {
+          "function": {
+            "name": "_deploy",
+            "pos": "release.ocu.star:46:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "_deploy",
+              "annotation": "",
+              "delay": ""
+            },
+            {
+              "from": "_deploy",
+              "to": "",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        },
+        "_destroy/release.ocu.star:67:1": {
+          "function": {
+            "name": "_destroy",
+            "pos": "release.ocu.star:67:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "_destroy",
+              "annotation": "",
+              "delay": ""
+            },
+            {
+              "from": "_destroy",
+              "to": "",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        },
+        "review/release.ocu.star:13:1": {
+          "function": {
+            "name": "review",
+            "pos": "release.ocu.star:13:1"
+          },
+          "graph": [
+            {
+              "from": "",
+              "to": "review",
+              "annotation": "",
+              "delay": ""
+            },
+            {
+              "from": "review",
+              "to": "",
+              "annotation": "",
+              "delay": ""
+            }
+          ]
+        }
+      },
+      "phases": [
+        {
+          "name": "review",
+          "work": [
+            {
+              "call": {
+                "name": "review",
+                "inputs": {},
+                "fn": {
+                  "name": "review",
+                  "pos": "release.ocu.star:13:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "staging",
+          "work": [
+            {
+              "deploy": {
+                "environment": "staging",
+                "up": {
+                  "name": "_deploy",
+                  "pos": "release.ocu.star:46:1"
+                },
+                "down": {
+                  "name": "_destroy",
+                  "pos": "release.ocu.star:67:1"
+                },
+                "inputs": {
+                  "environment": {
+                    "ref": "@/environment/staging"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "production",
+          "work": [
+            {
+              "deploy": {
+                "environment": "production",
+                "up": {
+                  "name": "_deploy",
+                  "pos": "release.ocu.star:46:1"
+                },
+                "down": {
+                  "name": "_destroy",
+                  "pos": "release.ocu.star:67:1"
+                },
+                "inputs": {
+                  "environment": {
+                    "ref": "@/environment/production"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "deployments": null
+    }
+  }
+}
