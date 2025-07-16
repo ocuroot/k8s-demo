@@ -31,8 +31,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use the GH Actions token so we don't trigger workflows
         run: |
           ./ocuroot release new environments/release.ocu.star
-          ./ocuroot release new nginx/release.ocu.star
-          ./ocuroot release new kubernetes/release.ocu.star
+          ./ocuroot release new nginx/release.ocu.star || ./ocuroot release new kubernetes/release.ocu.star
 
       - name: Trigger following work
         env:
