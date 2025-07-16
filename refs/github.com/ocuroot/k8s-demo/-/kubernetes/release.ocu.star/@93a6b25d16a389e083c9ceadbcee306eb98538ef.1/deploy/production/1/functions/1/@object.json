@@ -1,0 +1,28 @@
+{
+  "kind": "ref",
+  "body_type": "release.FunctionState",
+  "body": {
+    "current": {
+      "id": "1",
+      "fn": {
+        "name": "_deploy",
+        "pos": "release.ocu.star:44:1"
+      },
+      "status": "pending",
+      "dependencies": [
+        "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@93a6b25d16a389e083c9ceadbcee306eb98538ef.1/deploy/staging/1/status/complete"
+      ],
+      "inputs": {
+        "environment": {
+          "ref": "@/environment/production"
+        }
+      }
+    },
+    "history": [
+      {
+        "time": "2025-07-16T13:37:46.135769675Z",
+        "status": "pending"
+      }
+    ]
+  }
+}
