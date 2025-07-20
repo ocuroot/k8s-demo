@@ -1,3 +1,5 @@
+# This holds an example for a workflow that
+# should be stored in the state branch
 name: Ocuroot Apply Intent
 
 on:
@@ -8,7 +10,7 @@ on:
       - "**/\\+*/**"
 
 jobs:
-  release:
+  intent:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -16,7 +18,7 @@ jobs:
 
       - name: Download ocuroot binary
         run: |
-          curl -L -o ocuroot https://downloads.ocuroot.com/ocuroot/0.3.5-7/linux-amd64/ocuroot
+          curl -L -o ocuroot ${{ vars.OCUROOT_BINARY }}
           chmod +x ocuroot
 
       - name: Configure Git
@@ -24,13 +26,7 @@ jobs:
           git config --global user.email "ocuroot-ci@example.com"
           git config --global user.name "Ocuroot CI"
 
-      - name: Apply all intent
+      - name: Trigger work from intent
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: |
-          ./ocuroot state diff | xargs -n1 ./ocuroot state apply
-
-      - name: Trigger outstanding work
-        env:
-          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: ./ocuroot work trigger
+        run: ./ocuroot work trigger --intent
