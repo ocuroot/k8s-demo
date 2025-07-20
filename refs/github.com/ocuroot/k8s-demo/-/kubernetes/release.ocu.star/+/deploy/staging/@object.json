@@ -3,7 +3,7 @@
   "body_type": "models.Intent",
   "body": {
     "type": "",
-    "release": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@083f15a176aa82a5caa7ac4a221582267337cc17.1",
+    "release": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@a0d39fcdabe476bf71039c07781461d288e65433.1",
     "input": {
       "environment": {
         "ref": "@/environment/staging",
