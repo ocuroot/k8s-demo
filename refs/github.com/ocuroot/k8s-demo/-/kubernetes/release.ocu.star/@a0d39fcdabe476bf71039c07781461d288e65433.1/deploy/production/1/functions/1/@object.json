@@ -14,13 +14,20 @@
       ],
       "inputs": {
         "environment": {
-          "ref": "@/environment/production"
+          "ref": "@/environment/production",
+          "value": {
+            "attributes": {
+              "infisical_env": "prod",
+              "type": "prod"
+            },
+            "name": "production"
+          }
         }
       }
     },
     "history": [
       {
-        "time": "2025-07-20T18:25:45.370079062Z",
+        "time": "2025-07-20T18:26:22.963369472Z",
         "status": "pending"
       }
     ]
