@@ -1,10 +1,18 @@
 {
   "kind": "ref",
   "body_type": "models.Work",
+  "links": [
+    "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@/deploy/staging",
+    "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@/deploy/staging/4"
+  ],
   "body": {
     "type": "",
     "release": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@a0d39fcdabe476bf71039c07781461d288e65433.1",
     "entrypoint": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@a0d39fcdabe476bf71039c07781461d288e65433.1/deploy/staging/4/functions/1",
-    "output": null
+    "output": {
+      "loadbalancer_id": "",
+      "loadbalancer_ip": "",
+      "service_url": ""
+    }
   }
 }
