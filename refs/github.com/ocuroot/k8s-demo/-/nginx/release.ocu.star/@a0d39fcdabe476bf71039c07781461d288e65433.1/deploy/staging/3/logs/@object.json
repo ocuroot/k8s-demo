@@ -1,0 +1,72 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-07-20T19:28:46.469695216Z",
+      "message": "/usr/bin/infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-20T19:28:46.479688262Z",
+      "message": "Logging in with credentials in INFISICAL_CLIENT_ID and INFISICAL_CLIENT_SECRET",
+      "attributes": {
+        "col": "14",
+        "filename": "../infisical.star",
+        "line": "46",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-20T19:28:46.947095833Z",
+      "message": "/usr/local/bin/helm",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-20T19:28:46.950971391Z",
+      "message": "Destroying nginx from staging environment...",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "198",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-20T19:28:47.140869599Z",
+      "message": "Error: uninstall: Release not loaded: nginx-custom: release: not found",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "down"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-20T19:28:47.143238905Z",
+      "message": "Nginx destroyed successfully from staging environment",
+      "attributes": {
+        "col": "10",
+        "filename": "./tasks.ocu.star",
+        "line": "207",
+        "thread": "down"
+      },
+      "stream": 0
+    }
+  ]
+}
