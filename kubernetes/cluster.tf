@@ -1,7 +1,7 @@
 resource "digitalocean_kubernetes_cluster" "k8" {
     name    = local.env_name
     region  = "nyc1"  # New York region (closest equivalent to Vultr's ewr)
-    version = "1.31.9-do.1"  # Using a recent stable version
+    version = data.digitalocean_kubernetes_versions.versions.latest_version
 
     node_pool {
         name       = "worker-pool-${local.env_name}"
@@ -9,4 +9,10 @@ resource "digitalocean_kubernetes_cluster" "k8" {
         node_count = 1
         auto_scale = false
     }
+
+    lifecycle {
+        ignore_changes = [version]
+    }
 }
+
+data "digitalocean_kubernetes_versions" "versions" {}
