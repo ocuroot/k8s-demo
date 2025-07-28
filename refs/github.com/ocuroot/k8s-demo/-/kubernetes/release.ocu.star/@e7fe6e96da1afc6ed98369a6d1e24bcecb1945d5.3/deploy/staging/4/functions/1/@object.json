@@ -1,0 +1,32 @@
+{
+  "kind": "ref",
+  "body_type": "release.FunctionState",
+  "body": {
+    "current": {
+      "id": "1",
+      "fn": {
+        "name": "_deploy",
+        "pos": "release.ocu.star:44:1"
+      },
+      "status": "pending",
+      "inputs": {
+        "environment": {
+          "ref": "@/environment/staging",
+          "value": {
+            "attributes": {
+              "infisical_env": "staging",
+              "type": "staging"
+            },
+            "name": "staging"
+          }
+        }
+      }
+    },
+    "history": [
+      {
+        "time": "2025-07-28T14:20:24.220279278Z",
+        "status": "pending"
+      }
+    ]
+  }
+}
