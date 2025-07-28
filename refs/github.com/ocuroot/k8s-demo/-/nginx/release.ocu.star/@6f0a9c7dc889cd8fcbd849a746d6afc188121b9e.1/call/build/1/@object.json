@@ -1,0 +1,10 @@
+{
+  "kind": "ref",
+  "body_type": "models.Work",
+  "body": {
+    "type": "",
+    "release": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@6f0a9c7dc889cd8fcbd849a746d6afc188121b9e.1",
+    "entrypoint": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@6f0a9c7dc889cd8fcbd849a746d6afc188121b9e.1/call/build/1/functions/1",
+    "output": null
+  }
+}
