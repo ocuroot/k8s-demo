@@ -14,13 +14,20 @@
       ],
       "inputs": {
         "environment": {
-          "ref": "@/environment/staging"
+          "ref": "@/environment/staging",
+          "value": {
+            "attributes": {
+              "infisical_env": "staging",
+              "type": "staging"
+            },
+            "name": "staging"
+          }
         }
       }
     },
     "history": [
       {
-        "time": "2025-07-28T10:17:34.458252-04:00",
+        "time": "2025-07-28T10:17:58.937554-04:00",
         "status": "pending"
       }
     ]
