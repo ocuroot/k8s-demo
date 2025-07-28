@@ -1,0 +1,3724 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-07-28T14:24:26.174291484Z",
+      "message": "Installing infisical",
+      "attributes": {
+        "col": "14",
+        "filename": "../infisical.star",
+        "line": "24",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.177516874Z",
+      "message": "/usr/bin/apt-get",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.634524244Z",
+      "message": "Executing the  setup script for the 'infisical/infisical-cli' repository ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.63579718Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.636410204Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for required executable 'curl' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.636589438Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.637723275Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.638254707Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for required executable 'curl' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.639505241Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.640172396Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for required executable 'apt-get' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.640383942Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.641579833Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.642103822Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for required executable 'apt-get' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.645292243Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.645935244Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.646196201Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.64729377Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.647853014Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Detecting your OS distribution and release using system methods ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.648032668Z",
+      "message": " ^^^^: ... Detected/provided for your OS/distribution, version and architecture:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.648055211Z",
+      "message": " \u003e\u003e\u003e\u003e:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.6480602Z",
+      "message": " \u003e\u003e\u003e\u003e: ... distro=\u001b[32mubuntu\u001b[39;49m  ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.648067834Z",
+      "message": "version=\u001b[32m24.04\u001b[39;49m  ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.648075689Z",
+      "message": "codename=",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.648348487Z",
+      "message": "\u001b[32mnoble\u001b[39;49m  arch=\u001b[32mx86_64\u001b[39;49m  ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.648360479Z",
+      "message": " \u003e\u003e\u003e\u003e:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.650188202Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.650917623Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for apt dependency 'apt-transport-https' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.66746404Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.668586405Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.66910348Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt dependency 'apt-transport-https' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.67026664Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.670774308Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for apt dependency 'ca-certificates' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.686192467Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.687477776Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.688031139Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt dependency 'ca-certificates' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.689300298Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.689874991Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for apt dependency 'gnupg' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.70598884Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.70732806Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.707935704Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt dependency 'gnupg' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.709153377Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.709689998Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Importing 'infisical/infisical-cli' repository GPG keys ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.97760185Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.978739103Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.979265054Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt signed-by key support ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.979413763Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.980518245Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.981128724Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Importing 'infisical/infisical-cli' repository GPG keys ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.982497378Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:26.983029391Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking if upstream install config is OK ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:27.435169235Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:27.436404161Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:27.436942295Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking if upstream install config is OK ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:27.438132927Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:27.438663467Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Installing 'infisical/infisical-cli' repository via apt ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:27.480155263Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:27.481268982Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:27.481796046Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Installing 'infisical/infisical-cli' repository via apt ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:27.484368559Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:27.484923074Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Updating apt repository metadata cache ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.560338808Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.56152365Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.56203269Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Updating apt repository metadata cache ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.563284999Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.564409127Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.564929659Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: The repository has been installed successfully - You're ready to rock!",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.565117699Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.636819475Z",
+      "message": "Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.670539111Z",
+      "message": "Get:6 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble InRelease [4437 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.676923599Z",
+      "message": "Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.676971278Z",
+      "message": "Hit:7 https://packages.microsoft.com/repos/azure-cli noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.67698321Z",
+      "message": "Hit:8 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.679098705Z",
+      "message": "Hit:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.680440991Z",
+      "message": "Hit:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:37.681820065Z",
+      "message": "Hit:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:38.13998607Z",
+      "message": "Fetched 4437 B in 0s (11.3 kB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:38.140016697Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:38.861682316Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:38.882997474Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:38.893336875Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:38.896160586Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:39.103454766Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:39.103491534Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:39.10428219Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:39.283384283Z",
+      "message": "The following NEW packages will be installed:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:39.284833839Z",
+      "message": "  infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:39.871851825Z",
+      "message": "0 upgraded, 1 newly installed, 0 to remove and 25 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:39.871884877Z",
+      "message": "Need to get 18.9 MB of archives.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:39.871890788Z",
+      "message": "After this operation, 37.4 MB of additional disk space will be used.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:39.871895517Z",
+      "message": "Get:1 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble/main amd64 infisical amd64 0.38.0 [18.9 MB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.352089161Z",
+      "message": "Fetched 18.9 MB in 1s (28.2 MB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.404536508Z",
+      "message": "Selecting previously unselected package infisical.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.404558108Z",
+      "message": "(Reading database ... \r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.426558913Z",
+      "message": "(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.426598317Z",
+      "message": "\r(Reading database ... 35%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.426609608Z",
+      "message": "(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.426672907Z",
+      "message": "(Reading database ... 55%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.437917639Z",
+      "message": "(Reading database ... 60%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.457991581Z",
+      "message": "(Reading database ... 65%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.477132935Z",
+      "message": "(Reading database ... 70%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.507877314Z",
+      "message": "(Reading database ... 75%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.528167623Z",
+      "message": "(Reading database ... 80%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.573349218Z",
+      "message": "(Reading database ... 85%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.608036985Z",
+      "message": "(Reading database ... 90%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.668521661Z",
+      "message": "(Reading database ... 95%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.701921545Z",
+      "message": "(Reading database ... 100%\r(Reading database ... 219605 files and directories currently installed.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.707136643Z",
+      "message": "Preparing to unpack .../infisical_0.38.0_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.710010829Z",
+      "message": "Unpacking infisical (0.38.0) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.909868485Z",
+      "message": "Setting up infisical (0.38.0) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:40.91271008Z",
+      "message": "Processing triggers for man-db (2.12.0-4build2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:49.426348262Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:49.426382406Z",
+      "message": "Running kernel seems to be up-to-date.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:49.426387285Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:49.426390621Z",
+      "message": "Restarting services...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:49.433737769Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:49.433767685Z",
+      "message": "Service restarts being deferred:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:49.433910406Z",
+      "message": " systemctl restart hosted-compute-agent.service",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:49.433991012Z",
+      "message": "No containers need to be restarted.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:49.434003005Z",
+      "message": "No user sessions are running outdated binaries.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:49.434045584Z",
+      "message": "No VM guests are running outdated hypervisor (qemu) binaries on this host.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:50.4178872Z",
+      "message": "Logging in with credentials in INFISICAL_CLIENT_ID and INFISICAL_CLIENT_SECRET",
+      "attributes": {
+        "col": "14",
+        "filename": "../infisical.star",
+        "line": "46",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:50.638451496Z",
+      "message": "/usr/bin/apt-get",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:50.694038988Z",
+      "message": "Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:50.723257334Z",
+      "message": "Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:50.724806287Z",
+      "message": "Hit:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:50.726572906Z",
+      "message": "Hit:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:50.727763247Z",
+      "message": "Hit:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:50.740538752Z",
+      "message": "Hit:6 https://packages.microsoft.com/repos/azure-cli noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:50.751104666Z",
+      "message": "Hit:7 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:50.786761748Z",
+      "message": "Get:8 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble InRelease [4437 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:51.214830695Z",
+      "message": "Fetched 4437 B in 0s (10.9 kB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:51.21486055Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:51.936716384Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:51.957556383Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:51.968473718Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:51.971367902Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.121802161Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.121830725Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.122734876Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.29262467Z",
+      "message": "gnupg is already the newest version (2.4.4-2ubuntu17.3).",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.292653083Z",
+      "message": "software-properties-common is already the newest version (0.99.49.2).",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.29265708Z",
+      "message": "0 upgraded, 0 newly installed, 0 to remove and 25 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.298598699Z",
+      "message": "--2025-07-28 14:24:52--  https://apt.releases.hashicorp.com/gpg",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.322617176Z",
+      "message": "Resolving apt.releases.hashicorp.com (apt.releases.hashicorp.com)... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.398572537Z",
+      "message": "18.160.10.71, 18.160.10.69, 18.160.10.45, ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.398593857Z",
+      "message": "Connecting to apt.releases.hashicorp.com (apt.releases.hashicorp.com)|18.160.10.71|:443... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.400638816Z",
+      "message": "connected.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.406034953Z",
+      "message": "HTTP request sent, awaiting response... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413210632Z",
+      "message": "200 OK",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413227984Z",
+      "message": "Length: 3980",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413236199Z",
+      "message": " (3.9K) [binary/octet-stream]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413242321Z",
+      "message": "Saving to: ‘STDOUT’",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413249083Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413253141Z",
+      "message": "     0K ...  ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413260234Z",
+      "message": "            ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413265895Z",
+      "message": "      ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413272377Z",
+      "message": "      ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413278839Z",
+      "message": "      ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413288728Z",
+      "message": "          ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.41329547Z",
+      "message": "       ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.413302002Z",
+      "message": "  100% 1.21G",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.41332748Z",
+      "message": "=0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.4138658Z",
+      "message": "2025-07-28 14:24:52 (1.21 GB/s) - written to stdout [3980/3980]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.465777354Z",
+      "message": "gpg: directory '/home/runner/.gnupg' created",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.465966707Z",
+      "message": "gpg: /home/runner/.gnupg/trustdb.gpg: trustdb created",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.466810342Z",
+      "message": "/usr/share/keyrings/hashicorp-archive-keyring.gpg",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.466821833Z",
+      "message": "-------------------------------------------------",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.466827384Z",
+      "message": "pub   rsa4096 2023-01-10 [SC] [expires: 2028-01-09]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.466831461Z",
+      "message": "      798A EC65 4E5C 1542 8C8E  42EE AA16 FCBC A621 E701",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.466836811Z",
+      "message": "uid           [ unknown] HashiCorp Security (HashiCorp Package Signing) \u003csecurity+packaging@hashicorp.com\u003e",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.46684135Z",
+      "message": "sub   rsa4096 2023-01-10 [S] [expires: 2028-01-09]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.475675104Z",
+      "message": "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]             https://apt.releases.hashicorp.com noble main",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.543447859Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.543473978Z",
+      "message": "WARNING: apt does not have a stable CLI interface. Use with caution in scripts.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.610473695Z",
+      "message": "Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.637796582Z",
+      "message": "Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.637972831Z",
+      "message": "Hit:6 https://packages.microsoft.com/repos/azure-cli noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.638039215Z",
+      "message": "Hit:7 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.639464559Z",
+      "message": "Hit:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.640584037Z",
+      "message": "Hit:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.641744106Z",
+      "message": "Hit:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.648103752Z",
+      "message": "Get:8 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble InRelease [4437 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:52.703541774Z",
+      "message": "Get:9 https://apt.releases.hashicorp.com noble InRelease [12.9 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:53.016593572Z",
+      "message": "Get:10 https://apt.releases.hashicorp.com noble/main amd64 Packages [194 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:53.188755281Z",
+      "message": "Fetched 212 kB in 0s (445 kB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:53.188778123Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:53.934975284Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:53.945392409Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.11136226Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.111386174Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.112185176Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.126327114Z",
+      "message": "25 packages can be upgraded. Run 'apt list --upgradable' to see them.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.139827039Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.150789542Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.153690638Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.31917427Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.319207763Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.32003688Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.480609206Z",
+      "message": "The following NEW packages will be installed:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.480635074Z",
+      "message": "  terraform",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.519230136Z",
+      "message": "0 upgraded, 1 newly installed, 0 to remove and 25 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.519254812Z",
+      "message": "Need to get 28.4 MB of archives.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.519258909Z",
+      "message": "After this operation, 93.6 MB of additional disk space will be used.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.519261725Z",
+      "message": "Get:1 https://apt.releases.hashicorp.com noble/main amd64 terraform amd64 1.12.2-1 [28.4 MB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.900738567Z",
+      "message": "Fetched 28.4 MB in 0s (203 MB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.920097032Z",
+      "message": "Selecting previously unselected package terraform.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.920118543Z",
+      "message": "(Reading database ... \r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.925518903Z",
+      "message": "(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.925537057Z",
+      "message": "(Reading database ... 20%\r(Reading database ... 25%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.925638105Z",
+      "message": "(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.925648324Z",
+      "message": "(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.928815257Z",
+      "message": "(Reading database ... 60%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.930739017Z",
+      "message": "(Reading database ... 65%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.932411699Z",
+      "message": "(Reading database ... 70%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.94254275Z",
+      "message": "(Reading database ... 75%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.944698875Z",
+      "message": "(Reading database ... 80%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.958463719Z",
+      "message": "(Reading database ... 85%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.963164975Z",
+      "message": "(Reading database ... 90%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:54.993450017Z",
+      "message": "(Reading database ... 95%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:55.001914277Z",
+      "message": "(Reading database ... 100%\r(Reading database ... 219610 files and directories currently installed.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:55.006298701Z",
+      "message": "Preparing to unpack .../terraform_1.12.2-1_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:55.007844787Z",
+      "message": "Unpacking terraform (1.12.2-1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:55.424914057Z",
+      "message": "Setting up terraform (1.12.2-1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:56.068848966Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:56.068881396Z",
+      "message": "Running kernel seems to be up-to-date.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:56.068889261Z",
+      "message": "Restarting services...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:56.075939321Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:56.075984325Z",
+      "message": "Service restarts being deferred:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:56.076023218Z",
+      "message": " systemctl restart hosted-compute-agent.service",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:56.076148652Z",
+      "message": "No containers need to be restarted.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:56.076157388Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:56.076162177Z",
+      "message": "No user sessions are running outdated binaries.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:56.076170172Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:56.076173518Z",
+      "message": "No VM guests are running outdated hypervisor (qemu) binaries on this host.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:57.031344394Z",
+      "message": "/home/runner/work/k8s-demo/k8s-demo/kubernetes",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:57.579797505Z",
+      "message": "- Fetching digitalocean/digitalocean 2.36.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:57.881267055Z",
+      "message": "- Retrieved digitalocean/digitalocean 2.36.0 for linux_amd64 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1mF82037E524B9C0E8\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:57.927437566Z",
+      "message": "- Fetching hashicorp/local 2.1.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:58.071210819Z",
+      "message": "- Retrieved hashicorp/local 2.1.0 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:58.096750233Z",
+      "message": "- Fetching hashicorp/random 3.6.2 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:58.242506627Z",
+      "message": "- Retrieved hashicorp/random 3.6.2 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:58.270795913Z",
+      "message": "- Fetching hashicorp/google 6.14.1 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.035556505Z",
+      "message": "- Retrieved hashicorp/google 6.14.1 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.035589437Z",
+      "message": "- Obtained digitalocean/digitalocean checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.035595437Z",
+      "message": "- Obtained hashicorp/local checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.035602992Z",
+      "message": "- Obtained hashicorp/random checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.03560774Z",
+      "message": "- Obtained hashicorp/google checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.036081615Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.036098667Z",
+      "message": "\u001b[1m\u001b[32mSuccess!\u001b[0m \u001b[1mTerraform has updated the lock file.\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.036104708Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.036109918Z",
+      "message": "Review the changes in .terraform.lock.hcl and then commit to your",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.036114967Z",
+      "message": "version control system to retain the new checksums.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.094412728Z",
+      "message": "\u001b[0m\u001b[1mInitializing the backend...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.208580518Z",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.208607969Z",
+      "message": "Successfully configured the backend \"gcs\"! Terraform will automatically",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.208614571Z",
+      "message": "use this backend unless the backend configuration changes.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.376197819Z",
+      "message": "\u001b[0m\u001b[1mInitializing provider plugins...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.376227625Z",
+      "message": "- Reusing previous version of hashicorp/random from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.396075711Z",
+      "message": "- Reusing previous version of hashicorp/google from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.409801921Z",
+      "message": "- Reusing previous version of digitalocean/digitalocean from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.420959668Z",
+      "message": "- Reusing previous version of hashicorp/local from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.456189423Z",
+      "message": "- Installing hashicorp/random v3.6.2...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.692378879Z",
+      "message": "- Installed hashicorp/random v3.6.2 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:24:59.720759045Z",
+      "message": "- Installing hashicorp/google v6.14.1...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.037479996Z",
+      "message": "- Installed hashicorp/google v6.14.1 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.083053836Z",
+      "message": "- Installing digitalocean/digitalocean v2.36.0...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.444293192Z",
+      "message": "- Installed digitalocean/digitalocean v2.36.0 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1mF82037E524B9C0E8\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.467010476Z",
+      "message": "- Installing hashicorp/local v2.1.0...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698113913Z",
+      "message": "- Installed hashicorp/local v2.1.0 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.69814453Z",
+      "message": "Partner and community providers are signed by their developers.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698149349Z",
+      "message": "If you'd like to know more about provider signing, you can read about it here:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698153617Z",
+      "message": "https://developer.hashicorp.com/terraform/cli/plugins/signing",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698157835Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698161021Z",
+      "message": "\u001b[0m\u001b[1m\u001b[32mTerraform has been successfully initialized!\u001b[0m\u001b[32m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698166Z",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698169517Z",
+      "message": "You may now begin working with Terraform. Try running \"terraform plan\" to see",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698173093Z",
+      "message": "any changes that are required for your infrastructure. All Terraform commands",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698176179Z",
+      "message": "should now work.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698179235Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698184855Z",
+      "message": "If you ever set or change modules or backend configuration for Terraform,",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698188011Z",
+      "message": "rerun this command to reinitialize your working directory. If you forget, other",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:01.698191107Z",
+      "message": "commands will detect it and remind you to do so if necessary.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.075981584Z",
+      "message": "\u001b[0m\u001b[1mrandom_id.suffix: Refreshing state... [id=8lRakch0LIA]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119213824Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119241997Z",
+      "message": "Terraform used the selected providers to generate the following execution",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119246775Z",
+      "message": "plan. Resource actions are indicated with the following symbols:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119251364Z",
+      "message": "  \u001b[32m+\u001b[0m create\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119256604Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119260241Z",
+      "message": "Terraform will perform the following actions:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119479247Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119490739Z",
+      "message": "\u001b[1m  # digitalocean_kubernetes_cluster.k8\u001b[0m will be created",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119495738Z",
+      "message": "\u001b[0m  \u001b[32m+\u001b[0m\u001b[0m resource \"digitalocean_kubernetes_cluster\" \"k8\" {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119499325Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m cluster_subnet                   = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119511517Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m created_at                       = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119514824Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m destroy_all_associated_resources = false",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.11951814Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m endpoint                         = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119521166Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m ha                               = false",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119524071Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m id                               = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119526776Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m ipv4_address                     = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119529762Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m kube_config                      = (sensitive value)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119532707Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m name                             = \"ocuroot-staging-f2545a91c8742c80\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119536765Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m region                           = \"nyc1\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119540331Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m registry_integration             = false",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119543187Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m service_subnet                   = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119545882Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m status                           = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119548567Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m surge_upgrade                    = true",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119551342Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m updated_at                       = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119554909Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m urn                              = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119558295Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m version                          = \"1.31.9-do.1\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.11956113Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m vpc_uuid                         = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119563986Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119566781Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m maintenance_policy (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119569716Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119572882Z",
+      "message": "      \u001b[32m+\u001b[0m\u001b[0m node_pool {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119575637Z",
+      "message": "          \u001b[32m+\u001b[0m\u001b[0m actual_node_count = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119578462Z",
+      "message": "          \u001b[32m+\u001b[0m\u001b[0m auto_scale        = false",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119581298Z",
+      "message": "          \u001b[32m+\u001b[0m\u001b[0m id                = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119584053Z",
+      "message": "          \u001b[32m+\u001b[0m\u001b[0m name              = \"worker-pool-ocuroot-staging-f2545a91c8742c80\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119587319Z",
+      "message": "          \u001b[32m+\u001b[0m\u001b[0m node_count        = 1",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119590024Z",
+      "message": "          \u001b[32m+\u001b[0m\u001b[0m nodes             = (known after apply)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119592819Z",
+      "message": "          \u001b[32m+\u001b[0m\u001b[0m size              = \"s-1vcpu-2gb\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119595484Z",
+      "message": "        }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119598219Z",
+      "message": "    }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119600975Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.11960371Z",
+      "message": "\u001b[1mPlan:\u001b[0m 1 to add, 0 to change, 0 to destroy.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119606555Z",
+      "message": "\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.11960936Z",
+      "message": "Changes to Outputs:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119613087Z",
+      "message": "  \u001b[32m+\u001b[0m\u001b[0m kubeconfig        = (sensitive value)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.119615923Z",
+      "message": "  \u001b[32m+\u001b[0m\u001b[0m kubeconfig_sha256 = (sensitive value)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:03.219618188Z",
+      "message": "\u001b[0m\u001b[1mdigitalocean_kubernetes_cluster.k8: Creating...\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:04.363755121Z",
+      "message": "\u001b[31m╷\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:04.363787231Z",
+      "message": "\u001b[31m│\u001b[0m \u001b[0m\u001b[1m\u001b[31mError: \u001b[0m\u001b[0m\u001b[1mError creating Kubernetes cluster: POST https://api.digitalocean.com/v2/kubernetes/clusters: 422 (request \"15b12ba3-b54a-4f82-b63f-2e3ceaa57fec\") validation error: invalid version slug\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:04.363797771Z",
+      "message": "\u001b[31m│\u001b[0m \u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:04.363802429Z",
+      "message": "\u001b[31m│\u001b[0m \u001b[0m\u001b[0m  with digitalocean_kubernetes_cluster.k8,",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:04.363804914Z",
+      "message": "\u001b[31m│\u001b[0m \u001b[0m  on cluster.tf line 1, in resource \"digitalocean_kubernetes_cluster\" \"k8\":",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:04.363809973Z",
+      "message": "\u001b[31m│\u001b[0m \u001b[0m   1: resource \"digitalocean_kubernetes_cluster\" \"k8\" \u001b[4m{\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:04.363812708Z",
+      "message": "\u001b[31m│\u001b[0m \u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-28T14:25:04.363815013Z",
+      "message": "\u001b[31m╵\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_deploy"
+      },
+      "stream": 0
+    }
+  ]
+}
