@@ -11,13 +11,20 @@
       "status": "pending",
       "inputs": {
         "environment": {
-          "ref": "@/environment/production"
+          "ref": "@/environment/production",
+          "value": {
+            "attributes": {
+              "infisical_env": "prod",
+              "type": "prod"
+            },
+            "name": "production"
+          }
         }
       }
     },
     "history": [
       {
-        "time": "2025-07-29T19:44:33.161747405Z",
+        "time": "2025-07-29T19:44:51.357822411Z",
         "status": "pending"
       }
     ]
