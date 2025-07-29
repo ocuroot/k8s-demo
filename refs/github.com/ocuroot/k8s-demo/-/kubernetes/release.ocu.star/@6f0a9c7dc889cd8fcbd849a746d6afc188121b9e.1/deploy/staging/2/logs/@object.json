@@ -1,0 +1,4065 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-07-29T19:44:54.724687547Z",
+      "message": "Installing infisical",
+      "attributes": {
+        "col": "14",
+        "filename": "../infisical.star",
+        "line": "24",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:54.728276117Z",
+      "message": "/usr/bin/apt-get",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.525313694Z",
+      "message": "Executing the  setup script for the 'infisical/infisical-cli' repository ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.526445771Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.52694347Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for required executable 'curl' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.527136279Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.528287047Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.528816721Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for required executable 'curl' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.5301452Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.530694756Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for required executable 'apt-get' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.530934436Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.532086586Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.532609322Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for required executable 'apt-get' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.536032007Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.536682461Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.536936515Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.538013215Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.538581586Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Detecting your OS distribution and release using system methods ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.538772304Z",
+      "message": " ^^^^: ... Detected/provided for your OS/distribution, version and architecture:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.538797732Z",
+      "message": " \u003e\u003e\u003e\u003e:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.538803492Z",
+      "message": " \u003e\u003e\u003e\u003e: ... distro=\u001b[32mubuntu\u001b[39;49m  version=",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.538810906Z",
+      "message": "\u001b[32m24.04\u001b[39;49m  codename=",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.5390222Z",
+      "message": "\u001b[32mnoble\u001b[39;49m  arch=\u001b[32mx86_64\u001b[39;49m  ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.539031408Z",
+      "message": " \u003e\u003e\u003e\u003e:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.540682647Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.541265996Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for apt dependency 'apt-transport-https' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.558166241Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.559402077Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.55999793Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt dependency 'apt-transport-https' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.561339421Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.561886913Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for apt dependency 'ca-certificates' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.576846756Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.577939065Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.578486216Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt dependency 'ca-certificates' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.579789629Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.580344743Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking for apt dependency 'gnupg' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.59464343Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.595729377Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.596302697Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt dependency 'gnupg' ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.597494571Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.598080946Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Importing 'infisical/infisical-cli' repository GPG keys ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.830729031Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.831783629Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.832306605Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking for apt signed-by key support ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.832356278Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.83341314Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.833911962Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Importing 'infisical/infisical-cli' repository GPG keys ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.835115748Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:55.835597978Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Checking if upstream install config is OK ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:56.204552067Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:56.205810055Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:56.206354442Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Checking if upstream install config is OK ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:56.207633549Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:56.208156475Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Installing 'infisical/infisical-cli' repository via apt ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:56.835380488Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:56.836506048Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:56.837052799Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Installing 'infisical/infisical-cli' repository via apt ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:56.839558255Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:44:56.840121356Z",
+      "message": "\u001b[32m  RUN\u001b[39;49m: Updating apt repository metadata cache ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.624900231Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.626167626Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.626722071Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: Updating apt repository metadata cache ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.628087582Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.629220206Z",
+      "message": "\u001b[1K\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.629732111Z",
+      "message": "\u001b[32m   OK\u001b[39;49m: The repository has been installed successfully - You're ready to rock!",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.629793389Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.697721435Z",
+      "message": "Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.733600111Z",
+      "message": "Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.733870265Z",
+      "message": "Get:6 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble InRelease [4437 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.734951483Z",
+      "message": "Hit:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.735788344Z",
+      "message": "Hit:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.735806547Z",
+      "message": "Hit:7 https://packages.microsoft.com/repos/azure-cli noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.736470146Z",
+      "message": "Hit:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:04.738007706Z",
+      "message": "Hit:8 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:05.198449881Z",
+      "message": "Fetched 4437 B in 0s (11.0 kB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:05.198480288Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:05.900142647Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:05.921890769Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:05.93256268Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:05.935416958Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:06.104176221Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:06.104209233Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:06.10498422Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:06.282371297Z",
+      "message": "The following NEW packages will be installed:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:06.283024586Z",
+      "message": "  infisical",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.079743458Z",
+      "message": "0 upgraded, 1 newly installed, 0 to remove and 22 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.079765549Z",
+      "message": "Need to get 18.9 MB of archives.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.079769175Z",
+      "message": "After this operation, 37.4 MB of additional disk space will be used.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.079772241Z",
+      "message": "Get:1 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble/main amd64 infisical amd64 0.38.0 [18.9 MB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.490409998Z",
+      "message": "Fetched 18.9 MB in 1s (19.9 MB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.511403372Z",
+      "message": "Selecting previously unselected package infisical.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.511425713Z",
+      "message": "(Reading database ... \r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.534871663Z",
+      "message": "(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.534926118Z",
+      "message": "\r(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.534962566Z",
+      "message": "55%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.559152399Z",
+      "message": "(Reading database ... 60%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.587578684Z",
+      "message": "(Reading database ... 65%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.612515236Z",
+      "message": "(Reading database ... 70%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.648577432Z",
+      "message": "(Reading database ... 75%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.679203475Z",
+      "message": "(Reading database ... 80%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.716299472Z",
+      "message": "(Reading database ... 85%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.773312231Z",
+      "message": "(Reading database ... 90%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.816959454Z",
+      "message": "(Reading database ... 95%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.883660617Z",
+      "message": "(Reading database ... 100%\r(Reading database ... 219824 files and directories currently installed.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.888201811Z",
+      "message": "Preparing to unpack .../infisical_0.38.0_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:07.892141985Z",
+      "message": "Unpacking infisical (0.38.0) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:08.115809531Z",
+      "message": "Setting up infisical (0.38.0) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:08.119929869Z",
+      "message": "Processing triggers for man-db (2.12.0-4build2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:15.692653505Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:15.692680225Z",
+      "message": "Running kernel seems to be up-to-date.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:15.692692949Z",
+      "message": "Restarting services...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:15.699938973Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:15.699981663Z",
+      "message": "Service restarts being deferred:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:15.700145831Z",
+      "message": " systemctl restart hosted-compute-agent.service",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:15.700215158Z",
+      "message": "No containers need to be restarted.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:15.700233412Z",
+      "message": "No user sessions are running outdated binaries.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:15.700238742Z",
+      "message": "No VM guests are running outdated hypervisor (qemu) binaries on this host.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:16.576641569Z",
+      "message": "Logging in with credentials in INFISICAL_CLIENT_ID and INFISICAL_CLIENT_SECRET",
+      "attributes": {
+        "col": "14",
+        "filename": "../infisical.star",
+        "line": "46",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:16.955117381Z",
+      "message": "/usr/bin/apt-get",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:17.027746088Z",
+      "message": "Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:17.062114073Z",
+      "message": "Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:17.062142676Z",
+      "message": "Hit:6 https://packages.microsoft.com/repos/azure-cli noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:17.062147605Z",
+      "message": "Hit:7 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:17.062853613Z",
+      "message": "Hit:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:17.064000659Z",
+      "message": "Hit:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:17.064857388Z",
+      "message": "Hit:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:17.091013306Z",
+      "message": "Get:8 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble InRelease [4437 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:17.524262734Z",
+      "message": "Fetched 4437 B in 0s (11.1 kB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:17.5242874Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.233767802Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.25434661Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.264623742Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.267487076Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.431249855Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.431271135Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.432057343Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.601484233Z",
+      "message": "gnupg is already the newest version (2.4.4-2ubuntu17.3).",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.601505664Z",
+      "message": "software-properties-common is already the newest version (0.99.49.2).",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.601509431Z",
+      "message": "0 upgraded, 0 newly installed, 0 to remove and 22 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.607020377Z",
+      "message": "--2025-07-29 19:45:18--  https://apt.releases.hashicorp.com/gpg",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.630282774Z",
+      "message": "Resolving apt.releases.hashicorp.com (apt.releases.hashicorp.com)... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.677383936Z",
+      "message": "18.239.199.99, 18.239.199.120, 18.239.199.28, ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.677400346Z",
+      "message": "Connecting to apt.releases.hashicorp.com (apt.releases.hashicorp.com)|18.239.199.99|:443... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.678826448Z",
+      "message": "connected.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.689423096Z",
+      "message": "HTTP request sent, awaiting response... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696838446Z",
+      "message": "200 OK",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696853584Z",
+      "message": "Length: 3980 (3.9K) [binary/octet-stream]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696864514Z",
+      "message": "Saving to: ‘STDOUT’",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696869373Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696872369Z",
+      "message": "     0K .",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696876867Z",
+      "message": "..             ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696881045Z",
+      "message": "     ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696884862Z",
+      "message": "     ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.69688887Z",
+      "message": "     ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696893007Z",
+      "message": "     ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696896905Z",
+      "message": "     ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696900852Z",
+      "message": "     ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696905851Z",
+      "message": "      ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696910049Z",
+      "message": "  100%",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.696914518Z",
+      "message": " 1.02G=0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.697002184Z",
+      "message": "2025-07-29 19:45:18 (1.02 GB/s) - written to stdout [3980/3980]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.73476246Z",
+      "message": "gpg: directory '/home/runner/.gnupg' created",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.734958061Z",
+      "message": "gpg: /home/runner/.gnupg/trustdb.gpg: trustdb created",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.735705166Z",
+      "message": "/usr/share/keyrings/hashicorp-archive-keyring.gpg",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.735715325Z",
+      "message": "-------------------------------------------------",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.735719312Z",
+      "message": "pub   rsa4096 2023-01-10 [SC] [expires: 2028-01-09]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.73572335Z",
+      "message": "      798A EC65 4E5C 1542 8C8E  42EE AA16 FCBC A621 E701",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.735727207Z",
+      "message": "uid           [ unknown] HashiCorp Security (HashiCorp Package Signing) \u003csecurity+packaging@hashicorp.com\u003e",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.735731014Z",
+      "message": "sub   rsa4096 2023-01-10 [S] [expires: 2028-01-09]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.74394801Z",
+      "message": "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]             https://apt.releases.hashicorp.com noble main",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.753672083Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.753684737Z",
+      "message": "WARNING: apt does not have a stable CLI interface. Use with caution in scripts.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.841305508Z",
+      "message": "Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.871672105Z",
+      "message": "Get:6 https://dl.cloudsmith.io/public/infisical/infisical-cli/deb/ubuntu noble InRelease [4437 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.880800262Z",
+      "message": "Hit:7 https://packages.microsoft.com/repos/azure-cli noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.881018609Z",
+      "message": "Get:8 https://apt.releases.hashicorp.com noble InRelease [12.9 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.881239832Z",
+      "message": "Hit:9 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.952594159Z",
+      "message": "Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.953557168Z",
+      "message": "Hit:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.954458701Z",
+      "message": "Hit:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:18.955266638Z",
+      "message": "Hit:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:19.03549402Z",
+      "message": "Get:10 https://apt.releases.hashicorp.com noble/main amd64 Packages [194 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:19.387013578Z",
+      "message": "Fetched 212 kB in 0s (462 kB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:19.38704165Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.097297092Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.107424213Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.264796335Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.264819458Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.265592711Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.280405849Z",
+      "message": "22 packages can be upgraded. Run 'apt list --upgradable' to see them.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.294441485Z",
+      "message": "Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.305200736Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.308364171Z",
+      "message": "Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.460753933Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.460779892Z",
+      "message": "Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.461628035Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.623818209Z",
+      "message": "The following NEW packages will be installed:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.623851532Z",
+      "message": "  terraform",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.663778503Z",
+      "message": "0 upgraded, 1 newly installed, 0 to remove and 22 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.663800354Z",
+      "message": "Need to get 28.4 MB of archives.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.66380351Z",
+      "message": "After this operation, 93.6 MB of additional disk space will be used.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:20.663806084Z",
+      "message": "Get:1 https://apt.releases.hashicorp.com noble/main amd64 terraform amd64 1.12.2-1 [28.4 MB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.062577503Z",
+      "message": "Fetched 28.4 MB in 0s (151 MB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.081570984Z",
+      "message": "Selecting previously unselected package terraform.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.081589949Z",
+      "message": "(Reading database ... \r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.086887655Z",
+      "message": "(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.086916278Z",
+      "message": "(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... ",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.086953999Z",
+      "message": "35%\r(Reading database ... 40%\r(Reading database ... 45%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.086993714Z",
+      "message": "(Reading database ... 50%\r(Reading database ... 55%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.090085044Z",
+      "message": "(Reading database ... 60%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.092270503Z",
+      "message": "(Reading database ... 65%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.094118833Z",
+      "message": "(Reading database ... 70%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.104103659Z",
+      "message": "(Reading database ... 75%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.106431564Z",
+      "message": "(Reading database ... 80%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.110197082Z",
+      "message": "(Reading database ... 85%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.123970689Z",
+      "message": "(Reading database ... 90%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.131261006Z",
+      "message": "(Reading database ... 95%\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.156663058Z",
+      "message": "(Reading database ... 100%\r(Reading database ... 219829 files and directories currently installed.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.160917517Z",
+      "message": "Preparing to unpack .../terraform_1.12.2-1_amd64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.162303654Z",
+      "message": "Unpacking terraform (1.12.2-1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:21.576694085Z",
+      "message": "Setting up terraform (1.12.2-1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.136277661Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.136302738Z",
+      "message": "Running kernel seems to be up-to-date.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.136308369Z",
+      "message": "Restarting services...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.142779507Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.142819211Z",
+      "message": "Service restarts being deferred:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.14285095Z",
+      "message": " systemctl restart hosted-compute-agent.service",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.143003234Z",
+      "message": "No containers need to be restarted.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.143016949Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.143021367Z",
+      "message": "No user sessions are running outdated binaries.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.143025525Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.143028942Z",
+      "message": "No VM guests are running outdated hypervisor (qemu) binaries on this host.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:22.986370905Z",
+      "message": "/home/runner/work/k8s-demo/k8s-demo/kubernetes",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:23.604922064Z",
+      "message": "- Fetching hashicorp/random 3.6.2 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:23.756643004Z",
+      "message": "- Retrieved hashicorp/random 3.6.2 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:23.782294005Z",
+      "message": "- Fetching hashicorp/google 6.14.1 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:24.639701963Z",
+      "message": "- Retrieved hashicorp/google 6.14.1 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:24.992150397Z",
+      "message": "- Fetching digitalocean/digitalocean 2.36.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:25.909844887Z",
+      "message": "- Retrieved digitalocean/digitalocean 2.36.0 for linux_amd64 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1mF82037E524B9C0E8\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:25.933161736Z",
+      "message": "- Fetching hashicorp/local 2.1.0 for linux_amd64...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.083459006Z",
+      "message": "- Retrieved hashicorp/local 2.1.0 for linux_amd64 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.083486137Z",
+      "message": "- Obtained digitalocean/digitalocean checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.083492458Z",
+      "message": "- Obtained hashicorp/local checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.083498139Z",
+      "message": "- Obtained hashicorp/random checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.083501976Z",
+      "message": "- Obtained hashicorp/google checksums for linux_amd64; This was a new provider and the checksums for this platform are now tracked in the lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.083783628Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.083794689Z",
+      "message": "\u001b[1m\u001b[32mSuccess!\u001b[0m \u001b[1mTerraform has updated the lock file.\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.08380054Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.083805189Z",
+      "message": "Review the changes in .terraform.lock.hcl and then commit to your",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.083808795Z",
+      "message": "version control system to retain the new checksums.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.142354848Z",
+      "message": "\u001b[0m\u001b[1mInitializing the backend...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.353156599Z",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.353190201Z",
+      "message": "Successfully configured the backend \"gcs\"! Terraform will automatically",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.353205199Z",
+      "message": "use this backend unless the backend configuration changes.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.96284014Z",
+      "message": "\u001b[0m\u001b[1mInitializing provider plugins...\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.962870146Z",
+      "message": "- Reusing previous version of hashicorp/google from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:26.990980332Z",
+      "message": "- Reusing previous version of digitalocean/digitalocean from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:27.006954062Z",
+      "message": "- Reusing previous version of hashicorp/local from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:27.020517317Z",
+      "message": "- Reusing previous version of hashicorp/random from the dependency lock file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:27.076100898Z",
+      "message": "- Installing hashicorp/local v2.1.0...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:27.306704747Z",
+      "message": "- Installed hashicorp/local v2.1.0 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:27.351564435Z",
+      "message": "- Installing hashicorp/random v3.6.2...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:27.633217359Z",
+      "message": "- Installed hashicorp/random v3.6.2 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:27.66101391Z",
+      "message": "- Installing hashicorp/google v6.14.1...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.011720371Z",
+      "message": "- Installed hashicorp/google v6.14.1 (signed by HashiCorp)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.130185148Z",
+      "message": "- Installing digitalocean/digitalocean v2.36.0...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532333683Z",
+      "message": "- Installed digitalocean/digitalocean v2.36.0 (signed by a HashiCorp partner, key ID \u001b[0m\u001b[1mF82037E524B9C0E8\u001b[0m\u001b[0m)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532361486Z",
+      "message": "Partner and community providers are signed by their developers.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532366254Z",
+      "message": "If you'd like to know more about provider signing, you can read about it here:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532370532Z",
+      "message": "https://developer.hashicorp.com/terraform/cli/plugins/signing",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.53237457Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532377936Z",
+      "message": "\u001b[0m\u001b[1m\u001b[32mTerraform has been successfully initialized!\u001b[0m\u001b[32m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532381383Z",
+      "message": "\u001b[0m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532384789Z",
+      "message": "You may now begin working with Terraform. Try running \"terraform plan\" to see",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532387875Z",
+      "message": "any changes that are required for your infrastructure. All Terraform commands",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532391822Z",
+      "message": "should now work.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532396611Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532400158Z",
+      "message": "If you ever set or change modules or backend configuration for Terraform,",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532405728Z",
+      "message": "rerun this command to reinitialize your working directory. If you forget, other",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:29.532410136Z",
+      "message": "commands will detect it and remind you to do so if necessary.\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:31.358101701Z",
+      "message": "\u001b[0m\u001b[1mrandom_id.suffix: Refreshing state... [id=8lRakch0LIA]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:31.370376681Z",
+      "message": "\u001b[0m\u001b[1mdata.digitalocean_kubernetes_versions.versions: Reading...\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.071196438Z",
+      "message": "\u001b[0m\u001b[1mdata.digitalocean_kubernetes_versions.versions: Read complete after 1s [id=terraform-20250729194532070400000001]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.07485675Z",
+      "message": "\u001b[0m\u001b[1mdigitalocean_kubernetes_cluster.k8: Refreshing state... [id=ae74b300-1a6f-442d-a386-47525491cd75]\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755025258Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755051707Z",
+      "message": "Terraform used the selected providers to generate the following execution",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755056426Z",
+      "message": "plan. Resource actions are indicated with the following symbols:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755077916Z",
+      "message": "  \u001b[31m-\u001b[0m destroy\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755082264Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755086262Z",
+      "message": "Terraform will perform the following actions:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.75535795Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755372096Z",
+      "message": "\u001b[1m  # digitalocean_kubernetes_cluster.k8\u001b[0m will be \u001b[1m\u001b[31mdestroyed\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755377266Z",
+      "message": "\u001b[0m  \u001b[31m-\u001b[0m\u001b[0m resource \"digitalocean_kubernetes_cluster\" \"k8\" {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755389338Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m auto_upgrade                     = false \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755393436Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m cluster_subnet                   = \"10.244.0.0/16\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755397584Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m created_at                       = \"2025-07-28 14:29:46 +0000 UTC\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755401661Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m destroy_all_associated_resources = false \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755405478Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m endpoint                         = \"https://ae74b300-1a6f-442d-a386-47525491cd75.k8s.ondigitalocean.com\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755409596Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m ha                               = false \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755413223Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m id                               = \"ae74b300-1a6f-442d-a386-47525491cd75\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.75541671Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m kube_config                      = (sensitive value) \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755420206Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m name                             = \"ocuroot-staging-f2545a91c8742c80\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755423963Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m region                           = \"nyc1\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755429643Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m registry_integration             = false \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755434423Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m service_subnet                   = \"10.245.0.0/16\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.75543823Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m status                           = \"running\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755442257Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m surge_upgrade                    = true \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755447857Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m tags                             = [] \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755451034Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m updated_at                       = \"2025-07-28 22:02:00 +0000 UTC\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.75545462Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m urn                              = \"do:kubernetes:ae74b300-1a6f-442d-a386-47525491cd75\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755458317Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m version                          = \"1.33.1-do.2\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755461343Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m vpc_uuid                         = \"ebd6ddb1-4320-448d-89d0-9dad61827b64\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755464379Z",
+      "message": "        \u001b[90m# (1 unchanged attribute hidden)\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755467504Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.75547048Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m maintenance_policy {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755473345Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m day        = \"any\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755476181Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m duration   = \"4h0m0s\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755479396Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m start_time = \"22:00\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755482332Z",
+      "message": "        }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755485367Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755488473Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m node_pool {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.75549181Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m actual_node_count = 1 \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755494725Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m auto_scale        = false \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755497781Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m id                = \"200cf4f1-8e24-42ad-8e46-db7d28ab2adf\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755500556Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m labels            = {} \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755503271Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m max_nodes         = 0 \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755506377Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m min_nodes         = 0 \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755509312Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m name              = \"worker-pool-ocuroot-staging-f2545a91c8742c80\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.75551339Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m node_count        = 1 \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755518189Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m nodes             = [",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755521194Z",
+      "message": "              \u001b[31m-\u001b[0m\u001b[0m {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755524511Z",
+      "message": "                  \u001b[31m-\u001b[0m\u001b[0m created_at = \"2025-07-28 14:29:46 +0000 UTC\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755527496Z",
+      "message": "                  \u001b[31m-\u001b[0m\u001b[0m droplet_id = \"510439183\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755530412Z",
+      "message": "                  \u001b[31m-\u001b[0m\u001b[0m id         = \"67438fec-0ab7-48c3-85f8-8acd0b8bd025\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755533277Z",
+      "message": "                  \u001b[31m-\u001b[0m\u001b[0m name       = \"worker-pool-ocuroot-staging-f2545a91c8742c80-lk82z\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755536904Z",
+      "message": "                  \u001b[31m-\u001b[0m\u001b[0m status     = \"running\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755539839Z",
+      "message": "                  \u001b[31m-\u001b[0m\u001b[0m updated_at = \"2025-07-28 14:33:07 +0000 UTC\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755542694Z",
+      "message": "                },",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.75554571Z",
+      "message": "            ] \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755548536Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m size              = \"s-1vcpu-2gb\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755552763Z",
+      "message": "          \u001b[31m-\u001b[0m\u001b[0m tags              = [] \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755555719Z",
+      "message": "        }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755558975Z",
+      "message": "    }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755568052Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755571308Z",
+      "message": "\u001b[1m  # random_id.suffix\u001b[0m will be \u001b[1m\u001b[31mdestroyed\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755574354Z",
+      "message": "\u001b[0m  \u001b[31m-\u001b[0m\u001b[0m resource \"random_id\" \"suffix\" {",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755577339Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m b64_std     = \"8lRakch0LIA=\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755580736Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m b64_url     = \"8lRakch0LIA\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755585725Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m byte_length = 8 \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755589863Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m dec         = \"17461681237402070144\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755592878Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m hex         = \"f2545a91c8742c80\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755595994Z",
+      "message": "      \u001b[31m-\u001b[0m\u001b[0m id          = \"8lRakch0LIA\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755598749Z",
+      "message": "    }",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755601735Z",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.75560455Z",
+      "message": "\u001b[1mPlan:\u001b[0m 0 to add, 0 to change, 2 to destroy.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755607586Z",
+      "message": "\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755610501Z",
+      "message": "Changes to Outputs:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755613547Z",
+      "message": "  \u001b[31m-\u001b[0m\u001b[0m env_name          = \"ocuroot-staging-f2545a91c8742c80\" \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755616563Z",
+      "message": "  \u001b[31m-\u001b[0m\u001b[0m kubeconfig        = (sensitive value) \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.755619528Z",
+      "message": "  \u001b[31m-\u001b[0m\u001b[0m kubeconfig_sha256 = (sensitive value) \u001b[90m-\u003e null\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:32.838043187Z",
+      "message": "\u001b[0m\u001b[1mdigitalocean_kubernetes_cluster.k8: Destroying... [id=ae74b300-1a6f-442d-a386-47525491cd75]\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:33.358869854Z",
+      "message": "\u001b[0m\u001b[1mdigitalocean_kubernetes_cluster.k8: Destruction complete after 0s\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:33.361832717Z",
+      "message": "\u001b[0m\u001b[1mrandom_id.suffix: Destroying... [id=8lRakch0LIA]\u001b[0m\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:33.362498833Z",
+      "message": "\u001b[0m\u001b[1mrandom_id.suffix: Destruction complete after 0s\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:33.875639964Z",
+      "message": "\u001b[0m\u001b[1m\u001b[32m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:33.875703182Z",
+      "message": "Destroy complete! Resources: 2 destroyed.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:33.875709454Z",
+      "message": "\u001b[0m",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:34.271274049Z",
+      "message": "Failed to delete secret",
+      "attributes": {
+        "col": "14",
+        "filename": "release.ocu.star",
+        "line": "74",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-07-29T19:45:34.27129613Z",
+      "message": "Unable to complete your delete request\n",
+      "attributes": {
+        "col": "14",
+        "filename": "release.ocu.star",
+        "line": "75",
+        "thread": "_destroy"
+      },
+      "stream": 0
+    }
+  ]
+}
