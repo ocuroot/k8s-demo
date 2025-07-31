@@ -1,0 +1,20 @@
+{
+  "kind": "ref",
+  "body_type": "models.Intent",
+  "body": {
+    "type": "",
+    "release": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@d48dde9121671fe7c11d81b64b9a1369837e7601.1",
+    "input": {
+      "environment": {
+        "ref": "@/environment/staging",
+        "value": {
+          "attributes": {
+            "infisical_env": "staging",
+            "type": "staging"
+          },
+          "name": "staging"
+        }
+      }
+    }
+  }
+}
