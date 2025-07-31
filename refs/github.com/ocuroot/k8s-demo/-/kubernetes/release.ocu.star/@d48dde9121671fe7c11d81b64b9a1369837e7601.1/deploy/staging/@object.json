@@ -2,13 +2,9 @@
   "kind": "ref",
   "body_type": "models.Work",
   "body": {
-    "type": "",
+    "type": "down",
     "release": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@d48dde9121671fe7c11d81b64b9a1369837e7601.1",
-    "entrypoint": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@d48dde9121671fe7c11d81b64b9a1369837e7601.1/deploy/staging/1/functions/1",
-    "output": {
-      "env_name": "ocuroot-staging-2fffdaf0cf9c45e6",
-      "kubeconfig_secret": "K8S_DEMO_KUBECONFIG",
-      "kubeconfig_sha256": "945fa3c2494371336a3a2809f2f00f987e7c028fd505c23e9a8051281fea59f3"
-    }
+    "entrypoint": "",
+    "output": {}
   }
 }
