@@ -28,10 +28,12 @@
           }
         },
         "kubeconfig_secret": {
-          "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_secret"
+          "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_secret",
+          "value": "K8S_DEMO_KUBECONFIG"
         },
         "kubeconfig_sha256": {
-          "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_sha256"
+          "ref": "github.com/ocuroot/k8s-demo/-/kubernetes/release.ocu.star/@/deploy/staging#output/kubeconfig_sha256",
+          "value": "945fa3c2494371336a3a2809f2f00f987e7c028fd505c23e9a8051281fea59f3"
         },
         "message": {
           "ref": "github.com/ocuroot/k8s-demo/-/nginx/release.ocu.star/@d48dde9121671fe7c11d81b64b9a1369837e7601.1/call/build#output/message",
@@ -41,7 +43,7 @@
     },
     "history": [
       {
-        "time": "2025-07-31T17:26:10.931344827Z",
+        "time": "2025-07-31T17:36:44.693940572Z",
         "status": "pending"
       }
     ]
